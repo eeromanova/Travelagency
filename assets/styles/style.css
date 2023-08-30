@@ -1,0 +1,119 @@
+* {
+  border: 1px solid red;
+}
+body {
+  font-size: 1em;
+}
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/header.png) no-repeat;
+  filter: blur(0.5px);
+  background-size: 100%;
+}
+.header__root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3.4% 11%;
+}
+.logo_main {
+  width: 40px;
+  height: 58px;
+  filter: brightness(0) invert(1);
+}
+.header__nav {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+.header__nav_yellow {
+  color: #ffc700;
+}
+.header__nav_white {
+  margin-left: 1rem;
+  color: #fff;
+}
+.header__title {
+  margin: 10% 11%;
+}
+.header__title_wrap {
+  position: relative;
+}
+.header__title_big {
+  margin: 0;
+  color: #fff;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.header__title_small {
+  position: absolute;
+  top: -1.5rem;
+  left: 35rem;
+  color: #ffc700;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__title_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__title_main {
+  margin: 0;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%, 0);
+  -webkit-text-stroke: 1px white;
+}
+.social-icon {
+  display: flex;
+  flex-direction: column;
+}
+.social-icon__item {
+  width: 32px;
+  height: 32px;
+}
+.social-icon__item_fb {
+  width: 30px;
+  height: 30px;
+}
+.button_wrap {
+  margin: 1rem auto;
+}
+.button {
+  width: 14.375rem;
+  height: 3.125rem;
+  color: #fff;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 60px;
+  background: linear-gradient(135deg, #0499dd 0%, #17c1bc 100%);
+}
+.header__video {
+  position: relative;
+  width: 25%;
+  height: 22%;
+  float: right;
+  margin-right: 15%;
+  background: url(../images/header_video.png) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.header__video_play {
+  position: absolute;
+  top: 35%;
+  right: 45%;
+}

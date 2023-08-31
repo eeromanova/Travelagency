@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 body {
   font-size: 1em;
 }
@@ -15,7 +15,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3.4% 11%;
+  margin: 0 11%;
+  padding-top: 2%;
 }
 .logo_main {
   width: 40px;
@@ -116,4 +117,98 @@ body {
   position: absolute;
   top: 35%;
   right: 45%;
+}
+.footer {
+  height: 10.8rem;
+  display: grid;
+  align-items: center;
+  background: #ededed;
+}
+.footer_wrap {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: repeat(4, 1fr) 0.5fr;
+  grid-template-areas: "logo menu socials contacts post";
+  align-items: center;
+  justify-items: stretch;
+  margin: auto 11%;
+}
+.logo_footer {
+  grid-area: logo;
+  width: 80px;
+  height: 114px;
+}
+.footer__menu {
+  grid-area: menu;
+  display: flex;
+  flex-direction: column;
+}
+.footer__menu_item {
+  margin-bottom: 0.3rem;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #282828;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer__icons {
+  grid-area: socials;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footer__icon_item {
+  text-decoration: none;
+  margin-bottom: 0.3rem;
+  width: 20px;
+  height: 20px;
+}
+.footer__contacts {
+  grid-area: contacts;
+  margin-left: 0.5rem;
+}
+.footer__contacts_item {
+  margin: 0;
+  margin-bottom: 0.3rem;
+  white-space: nowrap;
+  color: #282828;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer__socials_post {
+  grid-area: post;
+  display: flex;
+  flex-direction: row;
+}
+.footer__socials_address {
+  margin: 0;
+  margin-bottom: 0.3rem;
+  margin-left: 0.5rem;
+  color: #282828;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.social-icon__itemred {
+  width: 38px;
+  height: 38px;
+}
+.social-icon__itemyellow {
+  width: 32px;
+  height: 32px;
+}
+.social-icon__item_fbblue {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 1080px) {
+  body {
+    font-size: 0.5em;
+  }
 }

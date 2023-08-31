@@ -102,6 +102,7 @@ body {
   font-weight: 700;
   line-height: normal;
   border-radius: 60px;
+  border: 0;
   background: linear-gradient(135deg, #0499dd 0%, #17c1bc 100%);
 }
 .header__video {

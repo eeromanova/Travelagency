@@ -209,6 +209,18 @@ body {
   height: 30px;
 }
 
+/* стили блока Виды экскурсий */
+.excursion-more {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 @media screen and (max-width: 1080px) {
   html {
     font-size: 0.6rem;

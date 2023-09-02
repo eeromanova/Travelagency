@@ -209,16 +209,70 @@ body {
   height: 30px;
 }
 
-/* стили блока Виды экскурсий */
+/* Стили.Виды экскурсий. Ответственный - Оля */
+
+.excursion-type {
+  width: 78%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  justify-content: center;
+}
+.main__title {
+  color: #0499dd;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main__title_basisMargin {
+  flex-basis: 70%;
+  margin-block-end: 90px;
+}
+.excursion-type__item {
+  display: flex;
+  flex-basis: 35%;
+}
+.excursion-type__icon {
+  width: 75px;
+  height: 74px;
+}
+.excursion-type__paragraph {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.excursion-type__title {
+  color: #0499dd;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 1.125rem;
+  margin-block-end: 0;
+}
 .excursion-more {
   text-align: center;
-  width: 30%;
+  width: 33%;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: flex-end;
   align-items: center;
+  margin-top: 60px;
+}
+.main__text {
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.main__text_black {
+  font-size: 0.875rem;
+  color: #282828;
+}
+.main__text_white {
+  font-size: 0.75rem;
+  color: white;
 }
 
 @media screen and (max-width: 1080px) {

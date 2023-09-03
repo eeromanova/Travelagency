@@ -1,10 +1,45 @@
 /* * {
   border: 1px solid red;
 } */
+
+@font-face {
+  src: url(../fonts/Montserrat-Bold.ttf);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@font-face {
+  src: url(../fonts/Montserrat-Black.ttf);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+@font-face {
+  src: url(../fonts/Montserrat-Medium.ttf);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@font-face {
+  src: url(../fonts/mr_kindlyjasmineg.otf);
+  font-family: mr_KindlyJasmineG;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
 body {
   font-size: 1em;
   overflow-x: hidden;
 }
+
 .header {
   width: 100vw;
   height: 100vh;
@@ -12,6 +47,7 @@ body {
   filter: blur(0.5px);
   background-size: 100%;
 }
+
 .header__root {
   display: flex;
   justify-content: space-between;
@@ -19,11 +55,13 @@ body {
   margin: 0 11%;
   padding-top: 2%;
 }
+
 .logo_main {
   width: 40px;
   height: 58px;
   filter: brightness(0) invert(1);
 }
+
 .header__nav {
   font-size: 0.875rem;
   font-style: normal;
@@ -31,19 +69,26 @@ body {
   line-height: normal;
   text-decoration: none;
 }
+
 .header__nav_yellow {
   color: #ffc700;
+  font-family: Montserrat;
+  font-size: 14px;
 }
+
 .header__nav_white {
   margin-left: 1rem;
   color: #fff;
 }
+
 .header__title {
   margin: 10% 11%;
 }
+
 .header__title_wrap {
   position: relative;
 }
+
 .header__title_big {
   margin: 0;
   color: #fff;
@@ -53,6 +98,7 @@ body {
   line-height: normal;
   text-transform: uppercase;
 }
+
 .header__title_small {
   position: absolute;
   top: -1.5rem;
@@ -62,12 +108,15 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  font-family: mr_KindlyJasmineG;
 }
+
 .header__title_wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .header__title_main {
   margin: 0;
   font-size: 6rem;
@@ -78,21 +127,26 @@ body {
   color: hsl(0, 0%, 100%, 0);
   -webkit-text-stroke: 1px white;
 }
+
 .social-icon {
   display: flex;
   flex-direction: column;
 }
+
 .social-icon__item {
   width: 32px;
   height: 32px;
 }
+
 .social-icon__item_fb {
   width: 30px;
   height: 30px;
 }
+
 .button_wrap {
   margin: 1rem auto;
 }
+
 .button {
   width: 14.375rem;
   height: 3.125rem;
@@ -105,6 +159,7 @@ body {
   border: 0;
   background: linear-gradient(135deg, #0499dd 0%, #17c1bc 100%);
 }
+
 .header__video {
   position: relative;
   width: 25%;
@@ -115,17 +170,20 @@ body {
   background-size: cover;
   border-radius: 10px;
 }
+
 .header__video_play {
   position: absolute;
   top: 35%;
   right: 45%;
 }
+
 .footer {
   height: 10.8rem;
   display: grid;
   align-items: center;
   background: #ededed;
 }
+
 .footer_wrap {
   display: grid;
   grid-template-rows: 100%;
@@ -135,16 +193,19 @@ body {
   justify-items: stretch;
   margin: auto 11%;
 }
+
 .logo_footer {
   grid-area: logo;
   width: 80px;
   height: 114px;
 }
+
 .footer__menu {
   grid-area: menu;
   display: flex;
   flex-direction: column;
 }
+
 .footer__menu_item {
   margin-bottom: 0.3rem;
   white-space: nowrap;
@@ -155,22 +216,26 @@ body {
   font-weight: 500;
   line-height: normal;
 }
+
 .footer__icons {
   grid-area: socials;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
+
 .footer__icon_item {
   text-decoration: none;
   margin-bottom: 0.3rem;
   width: 20px;
   height: 20px;
 }
+
 .footer__contacts {
   grid-area: contacts;
   margin-left: 0.5rem;
 }
+
 .footer__contacts_item {
   margin: 0;
   margin-bottom: 0.3rem;
@@ -181,11 +246,13 @@ body {
   font-weight: 500;
   line-height: normal;
 }
+
 .footer__socials_post {
   grid-area: post;
   display: flex;
   flex-direction: row;
 }
+
 .footer__socials_address {
   margin: 0;
   margin-bottom: 0.3rem;
@@ -196,14 +263,17 @@ body {
   font-weight: 500;
   line-height: normal;
 }
+
 .social-icon__itemred {
   width: 38px;
   height: 38px;
 }
+
 .social-icon__itemyellow {
   width: 32px;
   height: 32px;
 }
+
 .social-icon__item_fbblue {
   width: 30px;
   height: 30px;
@@ -219,29 +289,35 @@ body {
   margin-top: 150px;
   justify-content: center;
 }
+
 .main__title {
   color: #0499dd;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
+
 .main__title_basisMargin {
   flex-basis: 70%;
   margin-block-end: 90px;
 }
+
 .excursion-type__item {
   display: flex;
   flex-basis: 35%;
 }
+
 .excursion-type__icon {
   width: 75px;
   height: 74px;
 }
+
 .excursion-type__paragraph {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
 }
+
 .excursion-type__title {
   color: #0499dd;
   font-style: normal;
@@ -250,6 +326,7 @@ body {
   font-size: 1.125rem;
   margin-block-end: 0;
 }
+
 .excursion-more {
   text-align: center;
   width: 33%;
@@ -261,15 +338,18 @@ body {
   align-items: center;
   margin-top: 60px;
 }
+
 .main__text {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
+
 .main__text_black {
   font-size: 0.875rem;
   color: #282828;
 }
+
 .main__text_white {
   font-size: 0.75rem;
   color: white;
@@ -283,21 +363,22 @@ body {
 
 /* Стили. О нас. Ответственный - Катя  */
 
-.about-us__image{
+.about-us__image {
   width: 70%;
 }
-.about-us__paragraph{
-  position:absolute;
-  top:20%;
-  right:15%;
-  width:30%;
-  height:50%;
+
+.about-us__paragraph {
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  width: 30%;
+  height: 50%;
   box-sizing: border-box;
-  padding:3% 5% 3% 5%;
+  padding: 3% 5% 3% 5%;
   background-color: #EDEDED;
-  border-radius:2%;
-}
-.about-us{
-  position:relative;
+  border-radius: 2%;
 }
 
+.about-us {
+  position: relative;
+}

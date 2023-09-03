@@ -280,3 +280,24 @@ body {
     font-size: 0.6rem;
   }
 }
+
+/* Стили. О нас. Ответственный - Катя  */
+
+.about-us__image{
+  width: 70%;
+}
+.about-us__paragraph{
+  position:absolute;
+  top:20%;
+  right:15%;
+  width:30%;
+  height:50%;
+  box-sizing: border-box;
+  padding:3% 5% 3% 5%;
+  background-color: #EDEDED;
+  border-radius:2%;
+}
+.about-us{
+  position:relative;
+}
+

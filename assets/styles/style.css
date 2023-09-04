@@ -389,8 +389,10 @@ body {
   position: relative;
 }
 
+/*популярные туры, ответственный Софья*/
+
 .popular-tours {
-  padding: 10vh 10vw 7vh 10vw;
+  padding: 20vh 13vw 30vh 13vw;
 }
 
 .popular-tours__sochi {
@@ -399,13 +401,12 @@ body {
   width: 328px;
   height: 244px;
   padding: 211px 16px 42px 16px;
-
   flex-shrink: 0;
   border-radius: 10px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.12) 0%, #000 100%), url(../images/img_sochi.png), lightgray -22.3px -8px / 112.389% 101.61% no-repeat;
 }
 
-.popular-tours__sochi__category {
+.popular-tours__category {
   color: #fff;
   font-family: Montserrat;
   font-size: 12px;
@@ -414,7 +415,7 @@ body {
   line-height: normal;
 }
 
-.popular-tours__sochi__title {
+.popular-tours__title {
   color: #FFC700;
   font-family: Montserrat;
   font-size: 14px;
@@ -423,13 +424,14 @@ body {
   line-height: normal;
 }
 
-.popular-tours__sochi__time_price {
+.popular-tours__time_price {
   color: #fff;
   font-family: Montserrat;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+
 }
 
 .popular-tours__header {
@@ -437,89 +439,118 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   padding-bottom: 5vh;
+}
 
-  /* Стили. Галерея. Ответственный - Марина */
-  .gallery {
-    width: 98%;
-    margin: auto;
-    margin-top: 150px;
-  }
+.popular-tours__cards {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
 
-  .gallery__text {
-    width: 78%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
+.popular-tours__horse-rides {
+  display: flex;
+  flex-flow: column;
+  width: 328px;
+  height: 244px;
+  padding: 211px 16px 42px 16px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../images/img_horse_riding.png), lightgray -113.9px -271px / 169.899% 153.832% no-repeat;
+}
 
-  .main__text_underlined {
-    margin: 0px;
-    font-size: 0.75rem;
-    color: black;
-    text-decoration: underline;
-  }
+.popular-tours__dragon {
+  display: flex;
+  flex-flow: column;
+  width: 328px;
+  height: 244px;
+  padding: 211px 16px 42px 16px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../images/img_dragon.png), lightgray -113.9px -271px / 169.899% 153.832% no-repeat;
+}
 
-  .gallery-paysage {
-    height: 40vw;
-    width: 100%;
-    display: grid;
-    grid-gap: 1.4em;
-  }
+/* Стили. Галерея. Ответственный - Марина */
+.gallery {
+  width: 98%;
+  margin: auto;
+  margin-top: 150px;
+}
 
-  .gallery__picture {
-    border-radius: 0.5em;
-  }
+.gallery__text {
+  width: 78%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
-  .gallery__picture_item-1 {
-    grid-column: 1/3;
-    grid-row: 1/2;
-    width: 35vw;
-    height: 19.9vw;
-  }
+.main__text_underlined {
+  margin: 0px;
+  font-size: 0.75rem;
+  color: black;
+  text-decoration: underline;
+}
 
-  .gallery__picture_item-2 {
-    grid-row: 1/4;
-    grid-column: 3/4;
-    width: 25vw;
-    height: 100%;
-  }
+.gallery-paysage {
+  height: 40vw;
+  width: 100%;
+  display: grid;
+  grid-gap: 1.4em;
+}
 
-  .gallery__picture_item-3 {
-    grid-column: 4/5;
-    grid-row: 1/2;
-    width: 18vw;
-    height: 18.7vw;
-  }
+.gallery__picture {
+  border-radius: 0.5em;
+}
 
-  .gallery__picture_item-4 {
-    grid-column: 5/6;
-    grid-row: 1/2;
-    width: 14.5vw;
-    height: 18.7vw;
-  }
+.gallery__picture_item-1 {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  width: 35vw;
+  height: 19.9vw;
+}
 
-  .gallery__picture_item-5 {
-    grid-row: 2/4;
-    grid-column: 1/2;
-    width: 15vw;
-  }
+.gallery__picture_item-2 {
+  grid-row: 1/4;
+  grid-column: 3/4;
+  width: 25vw;
+  height: 100%;
+}
 
-  .gallery__picture_item-6 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    width: 18.6vw;
-  }
+.gallery__picture_item-3 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  width: 18vw;
+  height: 18.7vw;
+}
 
-  .gallery__picture_item-7 {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    width: 18.6vw;
-  }
+.gallery__picture_item-4 {
+  grid-column: 5/6;
+  grid-row: 1/2;
+  width: 14.5vw;
+  height: 18.7vw;
+}
 
-  .gallery__picture_item-8 {
-    grid-column: 4/6;
-    grid-row: 2/4;
-    width: 34vw;
-    height: 18.5vw;
-  }
+.gallery__picture_item-5 {
+  grid-row: 2/4;
+  grid-column: 1/2;
+  width: 15vw;
+}
+
+.gallery__picture_item-6 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 18.6vw;
+}
+
+.gallery__picture_item-7 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  width: 18.6vw;
+}
+
+.gallery__picture_item-8 {
+  grid-column: 4/6;
+  grid-row: 2/4;
+  width: 34vw;
+  height: 18.5vw;
+}

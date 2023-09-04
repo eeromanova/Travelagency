@@ -353,6 +353,11 @@ body {
 .main__text_white {
   font-size: 0.75rem;
   color: white;
+  font-family: Montserrat;
+
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 @media screen and (max-width: 1080px) {
@@ -381,4 +386,54 @@ body {
 
 .about-us {
   position: relative;
+}
+
+.popular-tours {
+  padding: 10vh 10vw 7vh 10vw;
+}
+
+.popular-tours__sochi {
+  display: flex;
+  flex-flow: column;
+  width: 328px;
+  height: 244px;
+  padding: 211px 16px 42px 16px;
+
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.12) 0%, #000 100%), url(../images/img_sochi.png), lightgray -22.3px -8px / 112.389% 101.61% no-repeat;
+}
+
+.popular-tours__sochi__category {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.popular-tours__sochi__title {
+  color: #FFC700;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular-tours__sochi__time_price {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.popular-tours__header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-bottom: 5vh;
 }

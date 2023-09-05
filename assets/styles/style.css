@@ -368,6 +368,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  min-height: 20%;
 }
 
 @media screen and (max-width: 1080px) {
@@ -407,12 +408,14 @@ body {
 .popular-tours__sochi {
   display: flex;
   flex-flow: column;
-  width: 328px;
-  height: 244px;
-  padding: 211px 16px 42px 16px;
-  flex-shrink: 0;
+  /* width: 328px; */
+  height: 300px;
+  padding: 190px 16px 42px 16px;
+  flex: 1 1 33%;
+  /* flex-shrink: 0; */
   border-radius: 10px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.12) 0%, #000 100%), url(../images/img_sochi.png), lightgray -22.3px -8px / 112.389% 101.61% no-repeat;
+  background-size: cover;
 }
 
 .popular-tours__category {
@@ -455,44 +458,41 @@ body {
   margin: 0 11% 10% 11%;
   display: flex;
   flex-flow: row;
+  gap: 0.5rem;
   justify-content: space-between;
 }
 
 .popular-tours__horse-rides {
   display: flex;
   flex-flow: column;
-  width: 328px;
-  height: 244px;
-  padding: 211px 16px 42px 16px;
-  flex-shrink: 0;
+  /* width: 328px; */
+  height: 300px;
+  padding: 190px 16px 42px 16px;
+  flex: 1 1 33%;
+  /* flex-shrink: 0; */
   border-radius: 10px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../images/img_horse_riding.png), lightgray -113.9px -271px / 169.899% 153.832% no-repeat;
+  background-size: cover;
 }
 
 .popular-tours__dragon {
   display: flex;
   flex-flow: column;
-  width: 328px;
-  height: 244px;
-  padding: 211px 16px 42px 16px;
-  flex-shrink: 0;
+  /* width: 328px; */
+  height: 300px;
+  padding: 190px 16px 42px 16px;
+  flex: 1 1 33%;
+  /* flex-shrink: 0; */
   border-radius: 10px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../images/img_dragon.png), lightgray -113.9px -271px / 169.899% 153.832% no-repeat;
+  background-size: cover;
 }
 
 .button__popular-tours {
   width: 9.675rem;
   height: 2.7rem;
-  color: #fff;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  border-radius: 60px;
-  border: 0;
-  background: linear-gradient(135deg, #0499dd 0%, #17c1bc 100%);
+  font-size: 0.75rem;
 }
-
 /* Стили. Галерея. Ответственный - Марина */
 .gallery {
   width: 98%;

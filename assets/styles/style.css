@@ -64,6 +64,7 @@ body {
 
 .header__nav {
   font-size: 0.875rem;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -71,9 +72,8 @@ body {
 }
 
 .header__nav_yellow {
-  color: #ffc700;
-  font-family: Montserrat;
-  font-size: 14px;
+  color: var(--yellow, #FFC700);
+  font-size: 0.875rem;
 }
 
 .header__nav_white {
@@ -92,6 +92,7 @@ body {
 .header__title_big {
   margin: 0;
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
   font-size: 4.5rem;
   font-style: normal;
   font-weight: 700;
@@ -119,6 +120,7 @@ body {
 
 .header__title_main {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
   font-size: 6rem;
   font-style: normal;
   font-weight: 900;
@@ -151,6 +153,7 @@ body {
   width: 14.375rem;
   height: 3.125rem;
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
@@ -211,6 +214,7 @@ body {
   white-space: nowrap;
   text-decoration: none;
   color: #282828;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
@@ -240,6 +244,7 @@ body {
   margin: 0;
   margin-bottom: 0.3rem;
   white-space: nowrap;
+  font-family: 'Montserrat', sans-serif;
   color: #282828;
   font-size: 0.875rem;
   font-style: normal;
@@ -258,6 +263,7 @@ body {
   margin-bottom: 0.3rem;
   margin-left: 0.5rem;
   color: #282828;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
@@ -282,16 +288,17 @@ body {
 /* Стили.Виды экскурсий. Ответственный - Оля */
 
 .excursion-type {
-  width: 78%;
-  margin: auto;
+  /* width: 78%; */
+  margin: auto 11%;
   display: flex;
   flex-wrap: wrap;
   margin-top: 150px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .main__title {
   color: #0499dd;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -305,7 +312,7 @@ body {
 
 .excursion-type__item {
   display: flex;
-  flex-basis: 35%;
+  flex-basis: 50%;
 }
 
 .excursion-type__icon {
@@ -321,6 +328,7 @@ body {
 
 .excursion-type__title {
   color: #0499dd;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -330,7 +338,7 @@ body {
 
 .excursion-more {
   text-align: center;
-  width: 33%;
+  width: 50%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -341,6 +349,7 @@ body {
 }
 
 .main__text {
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -348,11 +357,13 @@ body {
 
 .main__text_black {
   font-size: 0.875rem;
+  font-family: 'Montserrat', sans-serif;
   color: #282828;
 }
 
 .main__text_white {
   font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
@@ -389,6 +400,7 @@ body {
   width: 98%;
   margin: auto;
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .gallery__text {
@@ -402,6 +414,7 @@ body {
 .main__text_underlined {
   margin: 0px;
   font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
   color: black;
   text-decoration: underline;
 }

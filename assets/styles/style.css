@@ -30,7 +30,6 @@
   font-weight: 400;
 }
 
-
 body {
   font-size: 1em;
   overflow-x: hidden;
@@ -39,7 +38,7 @@ body {
 .header {
   width: 100vw;
   height: 100vh;
-  position: relative;;
+  position: relative;
   background: url(../images/header.png) no-repeat;
   background-size: 100%;
   margin-bottom: 15%;
@@ -63,7 +62,7 @@ body {
 }
 .header__nav {
   font-size: 0.875rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -71,7 +70,7 @@ body {
 }
 
 .header__nav_yellow {
-  color: var(--yellow, #FFC700);
+  color: var(--yellow, #ffc700);
   font-size: 0.875rem;
 }
 .header__nav_yellow:hover {
@@ -95,7 +94,7 @@ body {
 .header__title_big {
   margin: 0;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 4.5rem;
   font-style: normal;
   font-weight: 700;
@@ -156,7 +155,7 @@ body {
   width: 14.375rem;
   height: 3.125rem;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
@@ -166,7 +165,7 @@ body {
   background: linear-gradient(135deg, #0499dd 0%, #17c1bc 100%);
 }
 .button:hover {
-  background: #FFC700;
+  background: #ffc700;
   color: #000;
 }
 .social-icon_mob {
@@ -518,7 +517,7 @@ body {
   white-space: nowrap;
   text-decoration: none;
   color: #282828;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
@@ -549,7 +548,7 @@ body {
   margin: 0;
   margin-bottom: 0.3rem;
   white-space: nowrap;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #282828;
   font-size: 0.875rem;
   font-style: normal;
@@ -570,7 +569,7 @@ body {
   margin-bottom: 0.3rem;
   margin-left: 0.5rem;
   color: #282828;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
@@ -699,7 +698,7 @@ body {
   .header__nav {
     display: none;
   }
-  
+
   .header__nav_yellow {
     display: none;
   }
@@ -713,11 +712,11 @@ body {
   .header__title_wrap1 {
     position: relative;
   }
-  
+
   .header__title_big {
     font-size: 2.25rem;
   }
-  
+
   .header__title_small {
     position: absolute;
     top: -1.5rem;
@@ -728,32 +727,32 @@ body {
   .header__title_wrap2 {
     display: block;
   }
-  
+
   .header__title_main {
     font-size: 4.5rem;
     line-height: 4.5rem;
   }
-  
+
   .social-icon {
     display: none;
   }
-  
+
   .social-icon_mob {
     display: flex;
     float: right;
     flex-direction: column;
   }
-  
+
   .social-icon__item_mob {
     width: 32px;
     height: 32px;
   }
-  
+
   .social-icon__item_fbmob {
     width: 30px;
     height: 30px;
   }
-  
+
   .button_wrap {
     margin: 5.6rem auto;
   }
@@ -764,7 +763,7 @@ body {
     left: 5.6%;
     top: 820px;
   }
-  
+
   .header__video_play {
     position: absolute;
     top: 30%;
@@ -782,7 +781,7 @@ body {
   .footer {
     height: 25.75rem;
   }
-  
+
   .footer_wrap {
     display: flex;
     flex-direction: column;
@@ -791,7 +790,7 @@ body {
   .footer__menu {
     display: none;
   }
-  
+
   .footer__menu_item {
     font-size: 0.75rem;
   }
@@ -832,13 +831,13 @@ body {
     font-size: 0.75rem;
   }
   .footer__socials_post {
-    display: none
+    display: none;
   }
   .social-icon_wrap {
     display: none;
   }
   .social-icon_wrapmob {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
   }
 }

@@ -306,7 +306,6 @@ body {
 /* Стили.Виды экскурсий. Ответственный - Оля */
 
 .excursion-type {
-  /* width: 78%; */
   margin: auto 11%;
   display: flex;
   flex-wrap: wrap;
@@ -330,7 +329,8 @@ body {
 
 .excursion-type__item {
   display: flex;
-  flex-basis: 50%;
+  flex-basis: 47%;
+  padding-right: 20px;
 }
 
 .excursion-type__icon {
@@ -847,5 +847,16 @@ body {
   .social-icon__item_fbblue {
     width: 30px;
     height: 30px;
+  }
+
+  /* Виды экскурсий. Ответственный - Оля */
+
+  .excursion-type {
+    flex-direction: column;
+    margin: auto 10%;
+  }
+  .excursion-type__item {
+    flex-basis: 100%;
+    margin-right: 0;
   }
 }

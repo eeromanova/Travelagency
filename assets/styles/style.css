@@ -34,7 +34,6 @@
   line-height: normal;
 }
 
-
 body {
   font-size: 1em;
   overflow-x: hidden;
@@ -43,7 +42,7 @@ body {
 .header {
   width: 100vw;
   height: 100vh;
-  position: relative;;
+  position: relative;
   background: url(../images/header.png) no-repeat;
   background-size: 100%;
 }
@@ -64,7 +63,7 @@ body {
 
 .header__nav {
   font-size: 0.875rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -72,7 +71,7 @@ body {
 }
 
 .header__nav_yellow {
-  color: var(--yellow, #FFC700);
+  color: var(--yellow, #ffc700);
   font-size: 0.875rem;
 }
 
@@ -92,7 +91,7 @@ body {
 .header__title_big {
   margin: 0;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 4.5rem;
   font-style: normal;
   font-weight: 700;
@@ -153,7 +152,7 @@ body {
   width: 14.375rem;
   height: 3.125rem;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
@@ -214,7 +213,7 @@ body {
   white-space: nowrap;
   text-decoration: none;
   color: #282828;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
@@ -244,7 +243,7 @@ body {
   margin: 0;
   margin-bottom: 0.3rem;
   white-space: nowrap;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #282828;
   font-size: 0.875rem;
   font-style: normal;
@@ -263,7 +262,7 @@ body {
   margin-bottom: 0.3rem;
   margin-left: 0.5rem;
   color: #282828;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
@@ -298,7 +297,7 @@ body {
 
 .main__title {
   color: #0499dd;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -328,7 +327,7 @@ body {
 
 .excursion-type__title {
   color: #0499dd;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -349,7 +348,7 @@ body {
 }
 
 .main__text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -357,13 +356,13 @@ body {
 
 .main__text_black {
   font-size: 0.875rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #282828;
 }
 
 .main__text_white {
   font-size: 0.75rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   font-style: normal;
   font-weight: 500;
@@ -391,7 +390,7 @@ body {
   height: 50%;
   box-sizing: border-box;
   padding: 3% 5% 3% 5%;
-  background-color: #EDEDED;
+  background-color: #ededed;
   border-radius: 2%;
 }
 
@@ -414,7 +413,9 @@ body {
   flex: 1 1 33%;
   /* flex-shrink: 0; */
   border-radius: 10px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.12) 0%, #000 100%), url(../images/img_sochi.png), lightgray -22.3px -8px / 112.389% 101.61% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.12) 0%, #000 100%),
+    url(../images/img_sochi.png),
+    lightgray -22.3px -8px / 112.389% 101.61% no-repeat;
   background-size: cover;
 }
 
@@ -428,7 +429,7 @@ body {
 }
 
 .popular-tours__title {
-  color: #FFC700;
+  color: #ffc700;
   font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
@@ -443,7 +444,6 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-
 }
 
 .popular-tours__header {
@@ -471,7 +471,9 @@ body {
   flex: 1 1 33%;
   /* flex-shrink: 0; */
   border-radius: 10px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../images/img_horse_riding.png), lightgray -113.9px -271px / 169.899% 153.832% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%),
+    url(../images/img_horse_riding.png),
+    lightgray -113.9px -271px / 169.899% 153.832% no-repeat;
   background-size: cover;
 }
 
@@ -484,7 +486,9 @@ body {
   flex: 1 1 33%;
   /* flex-shrink: 0; */
   border-radius: 10px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../images/img_dragon.png), lightgray -113.9px -271px / 169.899% 153.832% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%),
+    url(../images/img_dragon.png),
+    lightgray -113.9px -271px / 169.899% 153.832% no-repeat;
   background-size: cover;
 }
 
@@ -512,7 +516,7 @@ body {
 .main__text_underlined {
   margin: 0px;
   font-size: 0.75rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: black;
   text-decoration: underline;
 }

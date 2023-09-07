@@ -37,11 +37,10 @@ body {
 
 .header {
   width: 100vw;
-  height: 100vh;
+  height: 789px;
   position: relative;
   background: url(../images/header.png) no-repeat;
   background-size: 100%;
-  margin-bottom: 15%;
 }
 
 .header__root {
@@ -84,7 +83,7 @@ body {
   color: #0499dd;
 }
 .header__title {
-  margin: 10% 11%;
+  margin: 20vh 11%;
 }
 
 .header__title_wrap1 {
@@ -174,7 +173,6 @@ body {
 .header__video {
   position: absolute;
   right: 20%;
-  top: 80vh;
   width: 25vw;
   height: 20vh;
   border: none;
@@ -238,7 +236,7 @@ body {
 }
 
 .popular-tours__header {
-  margin: 10% 11% 0 11%;
+  margin: 10vh 11% 0 11%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -249,7 +247,7 @@ body {
   margin: 0 11% 10% 11%;
   display: flex;
   flex-flow: row;
-  gap: 0.5rem;
+  gap: 2%;
   justify-content: space-between;
 }
 

@@ -292,10 +292,10 @@ body {
   position: absolute;
   top: 20%;
   right: 15%;
-  width: 30%;
-  height: 50%;
+  max-width: 30vw;
+  min-height: 50%;
   box-sizing: border-box;
-  padding: 3% 5% 3% 5%;
+  padding: 2% 3% 2% 3%;
   background-color: #EDEDED;
   border-radius: 2%;
 }
@@ -663,6 +663,11 @@ body {
     /* Здесь будет адаптив Популярные экскурсии - Софья */
 
   /* Здесь будет адаптив О нас - Катя */
+  @media screen and (max-width:768px){
+    .about-us__paragraph {
+      padding: 1% 2% 1% 2%;
+    }
+  }
 
   /* Здесь будет адаптив Виды экскурсий - Оля  */
 

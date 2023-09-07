@@ -21,6 +21,7 @@
 <p>Adaptiv: desktop, mobile (<428), tablet (<768)</p>
 <p>Grid/flex-position</p>
 <p>Interaction with users (links and buttons)</p>
+<p>BEM</p>
 
 
 

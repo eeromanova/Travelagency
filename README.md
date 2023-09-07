@@ -12,9 +12,15 @@
 
 ### HTML
 
-The page is created using semantic elements 
+The page is created using only html and css.
+The structure of the HTML-document is wholly based on semantic elements.
+Contains video and images.
 
 ### CSS
+
+Adaptiv: desktop, mobile (<428), tablet (<768)
+Grid/flex-position
+Interaction with users (links and buttons)
 
 
 

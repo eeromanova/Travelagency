@@ -12,15 +12,15 @@
 
 ### HTML
 
-The page is created using only html and css.
-The structure of the HTML-document is wholly based on semantic elements.
-Contains video and images.
+<p>The page is created using only html and css.</p>
+<p>The structure of the HTML-document is wholly based on semantic elements.</p>
+<p>Contains video and images.</p>
 
 ### CSS
 
-Adaptiv: desktop, mobile (<428), tablet (<768)
-Grid/flex-position
-Interaction with users (links and buttons)
+<p>Adaptiv: desktop, mobile (<428), tablet (<768)</p>
+<p>Grid/flex-position</p>
+<p>Interaction with users (links and buttons)</p>
 
 
 

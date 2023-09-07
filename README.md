@@ -5,7 +5,7 @@
 
 ## Description
 
-<p align="center">Main page of site of travel company with information about the company, services, useful information about tours, fotos and contacts</p>
+<p align="center">Home page of site of travel company with information about the company, services, useful information about tours, fotos and contacts</p>
 
 
 ## About the project.

@@ -31,7 +31,7 @@
 }
 
 body {
-  font-size: 1em;
+  /* font-size: 1em; */
   overflow-x: hidden;
 }
 
@@ -60,7 +60,7 @@ body {
   display: none;
 }
 .header__nav {
-  font-size: 0.875em;
+  font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -70,7 +70,7 @@ body {
 
 .header__nav_yellow {
   color: var(--yellow, #ffc700);
-  font-size: 0.875em;
+  font-size: 14px;
 }
 .header__nav_yellow:hover {
   color: #0499dd;
@@ -94,7 +94,7 @@ body {
   margin: 0;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 4.5em;
+  font-size: 72px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -104,9 +104,9 @@ body {
 .header__title_small {
   position: absolute;
   top: -1.5rem;
-  left: 35rem;
+  left: 8em;
   color: #ffc700;
-  font-size: 4em;
+  font-size: 64px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -122,7 +122,7 @@ body {
 .header__title_main {
   margin: 0;
   font-family: sans-serif;
-  font-size: 6em;
+  font-size: 96px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
@@ -155,7 +155,7 @@ body {
   height: 3.125em;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.875em;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -212,7 +212,7 @@ body {
 .popular-tours__category {
   color: #fff;
   font-family: Montserrat;
-  font-size: 0.75em;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -221,7 +221,7 @@ body {
 .popular-tours__title {
   color: #ffc700;
   font-family: Montserrat;
-  font-size: 0.875em;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -230,7 +230,7 @@ body {
 .popular-tours__time_price {
   color: #fff;
   font-family: Montserrat;
-  font-size: 0.75em;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -285,7 +285,7 @@ body {
 .button__popular-tours {
   width: 9.675em;
   height: 2.7em;
-  font-size: 0.75em;
+  font-size: 12px;
 }
 /* Стили. О нас. Ответственный - Катя  */
 
@@ -323,6 +323,7 @@ body {
   color: #0499dd;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+  font-size: 24px;
   font-weight: 700;
   line-height: normal;
 }
@@ -358,7 +359,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  font-size: 1.125em;
+  font-size: 18px;
   margin-block-end: 0;
 }
 
@@ -382,13 +383,13 @@ body {
 }
 
 .main__text_black {
-  font-size: 0.875em;
+  font-size: 14px;
   font-family: "Montserrat", sans-serif;
   color: #282828;
 }
 
 .main__text_white {
-  font-size: 0.75em;
+  font-size: 12px;
   font-family: "Montserrat", sans-serif;
   color: white;
   font-style: normal;
@@ -415,7 +416,7 @@ body {
 
 .main__text_underlined {
   margin: 0px;
-  font-size: 0.75em;
+  font-size: 12px;
   font-family: "Montserrat", sans-serif;
   color: black;
   text-decoration: underline;
@@ -522,7 +523,7 @@ body {
   text-decoration: none;
   color: #282828;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.875em;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -550,11 +551,11 @@ body {
 
 .footer__contacts_item {
   margin: 0;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.5em;
   white-space: nowrap;
   font-family: "Montserrat", sans-serif;
   color: #282828;
-  font-size: 0.875em;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -574,7 +575,7 @@ body {
   margin-left: 0.5em;
   color: #282828;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.875em;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -596,12 +597,24 @@ body {
   width: 30px;
   height: 30px;
 }
-
-@media screen and (max-width: 1200px) {
-  html {
-    font-size: 0.6rem;
+@media screen and (max-width: 1100px) {
+  .header {
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+    margin-bottom: 20%;
+    background: url(../images/header_tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .header__video {
+    position: absolute;
+    width: 38vw;
+    height: 15vh;
+    right: 10.2%;
+    top: 950px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .header {
     width: 100vw;
@@ -631,18 +644,18 @@ body {
   }
 
   .header__title_big {
-    font-size: 3em;
+    font-size: 48px;
   }
 
   .header__title_small {
     position: absolute;
     top: -1.3rem;
     left: 19rem;
-    font-size: 3em;
+    font-size: 48px;
   }
   .header__title_main {
-    font-size: 5.5em;
-    line-height: 1em;
+    font-size: 96px;
+    line-height: 0.8em;
   }
   .social-icon {
     align-self: flex-end;
@@ -668,10 +681,8 @@ body {
   /* Здесь будет адаптив Популярные экскурсии - Софья */
 
   /* Здесь будет адаптив О нас - Катя */
-  @media screen and (max-width:768px){
-    .about-us__paragraph {
-      padding: 1% 2% 1% 2%;
-    }
+  .about-us__paragraph {
+    padding: 1% 2% 1% 2%;
   }
 
   /* Здесь будет адаптив Виды экскурсий - Оля  */
@@ -686,13 +697,13 @@ body {
     width: 100%;
   }
   .main__title {
-    font-size: 2.5em;
+    font-size: 24px;
   }
   .excursion-type__title {
-    font-size: 1.875em;
+    font-size: 18px;
   }
   .main__text_black {
-    font-size: 1.4585em;
+    font-size: 14px;
   }
   /* Здесб будет адаптив Галерея - Марина */
 
@@ -700,13 +711,13 @@ body {
     height: 22.5vw;
   }
   .footer__menu_item {
-    font-size: 0.75em;
+    font-size: 12px;
   }
   .footer__contacts_item {
-    font-size: 0.75em;
+    font-size: 12px;
   }
   .footer__socials_address {
-    font-size: 0.75em;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 428px) {
@@ -743,14 +754,14 @@ body {
   }
 
   .header__title_big {
-    font-size: 2.25em;
+    font-size: 36px;
   }
 
   .header__title_small {
     position: absolute;
     top: -1.5rem;
     left: 13rem;
-    font-size: 3em;
+    font-size: 48px;
   }
 
   .header__title_wrap2 {
@@ -758,8 +769,8 @@ body {
   }
 
   .header__title_main {
-    font-size: 4.5em;
-    line-height: 0.5em;
+    font-size: 72px;
+    line-height: 1em;
   }
 
   .social-icon {
@@ -808,13 +819,13 @@ body {
   }
 
   .main__text_black {
-    font-size: 1.3544em;
+    font-size: 13px;
   }
 
   /* Здесб будет адаптив Галерея - Марина */
 
   .footer {
-    height: 25.75rem;
+    height: 412px;
   }
 
   .footer_wrap {
@@ -827,7 +838,7 @@ body {
   }
 
   .footer__menu_item {
-    font-size: 0.75em;
+    font-size: 12px;
   }
   .footer__socials_mob {
     display: flex;
@@ -858,12 +869,13 @@ body {
   .footer__menu_mob {
     display: flex;
     flex-direction: column;
-    margin-right: 1.7rem;
+    margin-right: 1.7em;
   }
   .footer__contacts_item {
     display: block;
-    margin-bottom: 0.6rem;
-    font-size: 0.75em;
+    margin-bottom: 0.6em;
+    font-size: 12px;
+    margin-left: 1em;
   }
   .footer__socials_post {
     display: none;

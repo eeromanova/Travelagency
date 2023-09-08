@@ -301,7 +301,7 @@ body {
   min-height: 50%;
   box-sizing: border-box;
   padding: 2% 3% 2% 3%;
-  background-color: #EDEDED;
+  background-color: #ededed;
   border-radius: 2%;
 }
 
@@ -696,15 +696,7 @@ body {
   .excursion-more {
     width: 100%;
   }
-  .main__title {
-    font-size: 24px;
-  }
-  .excursion-type__title {
-    font-size: 18px;
-  }
-  .main__text_black {
-    font-size: 14px;
-  }
+
   /* Здесб будет адаптив Галерея - Марина */
 
   .footer {

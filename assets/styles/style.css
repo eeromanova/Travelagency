@@ -297,7 +297,7 @@ body {
 
 .about-us__paragraph {
   position: absolute;
-  top: 190px;
+  top: 150px;
   right: 150px;
   max-width: 542px;
   min-height: 476px;
@@ -683,10 +683,12 @@ body {
   /* Здесь будет адаптив Популярные экскурсии - Софья */
 
   /* Здесь будет адаптив О нас - Катя */
-  @media screen and (max-width:768px){
-    .about-us__paragraph {
-      padding: 1% 2% 1% 2%;
-    }
+  .about-us__paragraph {
+    top: 150px;
+    right: 50px;
+    max-width: 442px;
+    min-height: 450px;
+    padding: 25px;
   }
 
   /* Здесь будет адаптив Виды экскурсий - Оля  */
@@ -808,6 +810,12 @@ body {
   /* Здесь будет адаптив Популярные экскурсии - Софья */
 
   /* Здесь будет адаптив О нас - Катя */
+  .about-us__paragraph {
+    top: 165px;
+    right: -40px;
+    max-width: 350px;
+    min-height: 400px;
+    padding: 15px;
 
   /* Здесь будет адаптив Виды экскурсий - Оля  */
   .excursion-type {

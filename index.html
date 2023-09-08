@@ -1,269 +1,429 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/svg/logo_color_for_favicon.svg"
+      type="image/svg"
+    />
+    <title>PeroTravel</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/styles/normalize.css" />
-  <link rel="stylesheet" href="assets/styles/style.css" />
-  <link rel="shortcut icon" href="assets/svg/logo_color_for_favicon.svg" type="image/svg">
-  <title>PeroTravel</title>
-</head>
-
-<body>
-  <header class="header">
-    <!-- Ответственный - Лена -->
-    <div class="header__root">
-      <img class="logo_main" src="assets/images/logo_color_1.png" alt="logo" />
-      <img class="header__menu" src="assets/svg/menu.svg" alt="menu">
-      <nav class="header__nav">
-        <a class="header__nav header__nav_yellow" href="#">Главная</a>
-        <a class="header__nav header__nav_white" href="#">Экскурсии</a>
-        <a class="header__nav header__nav_white" href="#">Личный кабинет</a>
-      </nav>
-    </div>
-    <div class="header__title">
-      <div class="header__title_wrap1">
-        <p class="header__title_big">Путешествуй</p>
-        <p class="header__title_small">вместе с</p>
+  <body>
+    <header class="header">
+      <!-- Ответственный - Лена -->
+      <div class="header__root">
+        <img
+          class="logo_main"
+          src="assets/images/logo_color_1.png"
+          alt="logo"
+        />
+        <img class="header__menu" src="assets/svg/menu.svg" alt="menu" />
+        <nav class="header__nav">
+          <a class="header__nav header__nav_yellow" href="#">Главная</a>
+          <a class="header__nav header__nav_white" href="#">Экскурсии</a>
+          <a class="header__nav header__nav_white" href="#">Личный кабинет</a>
+        </nav>
       </div>
-      <div class="header__title_wrap2">
-        <h1 class="header__title_main">Pero Travel</h1>
-        <div class="social-icon">
-          <img class="social-icon__item" src="assets/svg/vk_1.svg" alt="vk" />
-          <img class="social-icon__item" src="assets/svg/inst_1.svg" alt="inst" />
-          <img class="social-icon__item_fb" src="assets/svg/facebook_1.svg" alt="fb" />
+      <div class="header__title">
+        <div class="header__title_wrap1">
+          <p class="header__title_big">Путешествуй</p>
+          <p class="header__title_small">вместе с</p>
         </div>
-      </div>
-
-      <div class="button_wrap">
-        <button type="button" class="button">К экскурсиям &rarr;</button>
-      </div>
-      <div class="social-icon_mob">
-        <img class="social-icon__item_mob" src="assets/svg/vk_1.svg" alt="vk" />
-        <img class="social-icon__item_mob" src="assets/svg/inst_1.svg" alt="inst" />
-        <img class="social-icon__item_fbmob" src="assets/svg/facebook_1.svg" alt="fb" />
-      </div>
-    </div>
-    <div class="header__video">
-      <video class="header__video_item" autoplay controls loop src="assets/video/video.mp4">Воспроизведение видео-файла
-        не поддерживается браузером</video>
-      <!-- <img class="header__video_play" src="assets/svg/play.svg" alt="play" /> -->
-    </div>
-  </header>
-  <main>
-    <!-- Популярные экскурсии. Ответственный - Софья -->
-    <section class="popular-tours">
-      <div class="popular-tours__header">
-        <h2 class="main__title main__title_basisMargin"> Популярные экскурсии</h2>
-        <p class="main__text main__text_underlined"> Смотреть все</p>
-      </div>
-      <div class="popular-tours__cards">
-        <div class="popular-tours__sochi">
-          <p class="popular-tours__category"> Автобусный тур</p>
-          <h2 class="popular-tours__title">Обзорная по Сочи (из Адлера)</h2>
-          <p class="popular-tours__time_price"><img src="assets/images/time_icon.png" alt="time_icon">6 часов<img
-              src="assets/images/price_icon.png" alt="price_icon">618 ₽</p>
-          <p class="main__text main__text_white">Приглашаем вас на экскурсию
-            "Обзорная по Большому Сочи":
-            Экскурсия начнется с подъёма на гору Большой Ахун - это высшая точка (665 метров) на побережьи Сочи.
-            На вершине горы Большой Ахун есть смотровая башня, построенная в 1935-36 годах по проекту архитектора
-            С. И. Воробьева...</p>
-          <div>
-            <button type="button" class="button button__popular-tours">Подробнее &rarr;</button>
+        <div class="header__title_wrap2">
+          <h1 class="header__title_main">Pero Travel</h1>
+          <div class="social-icon">
+            <img class="social-icon__item" src="assets/svg/vk_1.svg" alt="vk" />
+            <img
+              class="social-icon__item"
+              src="assets/svg/inst_1.svg"
+              alt="inst"
+            />
+            <img
+              class="social-icon__item_fb"
+              src="assets/svg/facebook_1.svg"
+              alt="fb"
+            />
           </div>
         </div>
-        <div class="popular-tours__horse-rides">
-          <p class="popular-tours__category"> Конный тур</p>
-          <h2 class="popular-tours__title">Конные прогулки</h2>
-          <p class="popular-tours__time_price"><img src="assets/images/time_icon.png" alt="time_icon">1,5 часа<img
-              src="assets/images/price_icon.png" alt="price_icon">1 809 ₽</p>
-          <p class="main__text main__text_white">Конные прогулки проходят в Лазурной долине. С долины открывается
-            красивый вид на море, горы и лес. На всем пути следования экскурсии вас будут сопровождать опытные
-            инструктора. Катание на лошадях или иппотерапия очень полезна для детей и взрослых...</p>
-          <div>
-            <button type="button" class="button button__popular-tours">Подробнее &rarr;</button>
+
+        <div class="button_wrap">
+          <button type="button" class="button">К экскурсиям &rarr;</button>
+        </div>
+        <div class="social-icon_mob">
+          <img
+            class="social-icon__item_mob"
+            src="assets/svg/vk_1.svg"
+            alt="vk"
+          />
+          <img
+            class="social-icon__item_mob"
+            src="assets/svg/inst_1.svg"
+            alt="inst"
+          />
+          <img
+            class="social-icon__item_fbmob"
+            src="assets/svg/facebook_1.svg"
+            alt="fb"
+          />
+        </div>
+      </div>
+      <div class="header__video">
+        <video
+          class="header__video_item"
+          autoplay
+          controls
+          loop
+          src="assets/video/video.mp4"
+        >
+          Воспроизведение видео-файла не поддерживается браузером
+        </video>
+        <!-- <img class="header__video_play" src="assets/svg/play.svg" alt="play" /> -->
+      </div>
+    </header>
+    <main>
+      <!-- Популярные экскурсии. Ответственный - Софья -->
+      <section class="popular-tours">
+        <div class="popular-tours__header">
+          <h2 class="main__title main__title_basisMargin">
+            Популярные экскурсии
+          </h2>
+          <p class="main__text main__text_underlined">Смотреть все</p>
+        </div>
+        <div class="popular-tours__cards">
+          <div class="popular-tours__sochi">
+            <p class="popular-tours__category">Автобусный тур</p>
+            <h2 class="popular-tours__title">Обзорная по Сочи (из Адлера)</h2>
+            <p class="popular-tours__time_price">
+              <img src="assets/images/time_icon.png" alt="time_icon" />6
+              часов<img
+                src="assets/images/price_icon.png"
+                alt="price_icon"
+              />618 ₽
+            </p>
+            <p class="main__text main__text_white">
+              Приглашаем вас на экскурсию "Обзорная по Большому Сочи": Экскурсия
+              начнется с подъёма на гору Большой Ахун - это высшая точка (665
+              метров) на побережьи Сочи. На вершине горы Большой Ахун есть
+              смотровая башня, построенная в 1935-36 годах по проекту
+              архитектора С. И. Воробьева...
+            </p>
+            <div>
+              <button type="button" class="button button__popular-tours">
+                Подробнее &rarr;
+              </button>
+            </div>
+          </div>
+          <div class="popular-tours__horse-rides">
+            <p class="popular-tours__category">Конный тур</p>
+            <h2 class="popular-tours__title">Конные прогулки</h2>
+            <p class="popular-tours__time_price">
+              <img src="assets/images/time_icon.png" alt="time_icon" />1,5
+              часа<img src="assets/images/price_icon.png" alt="price_icon" />1
+              809 ₽
+            </p>
+            <p class="main__text main__text_white">
+              Конные прогулки проходят в Лазурной долине. С долины открывается
+              красивый вид на море, горы и лес. На всем пути следования
+              экскурсии вас будут сопровождать опытные инструктора. Катание на
+              лошадях или иппотерапия очень полезна для детей и взрослых...
+            </p>
+            <div>
+              <button type="button" class="button button__popular-tours">
+                Подробнее &rarr;
+              </button>
+            </div>
+          </div>
+          <div class="popular-tours__dragon">
+            <p class="popular-tours__category">Квадротур</p>
+            <h2 class="popular-tours__title">Пасть дракона</h2>
+            <p class="popular-tours__time_price">
+              <img src="assets/images/time_icon.png" alt="time_icon" /> 2,5
+              часа<img src="assets/images/price_icon.png" alt="price_icon" />3
+              515 ₽
+            </p>
+            <p class="main__text main__text_white">
+              Маршрут на Квадроциклах проходит по горной реке Мзымта вдоль белых
+              скал и самшитовый лес к водопаду Глубокий Яр или "Пасть Дракона"
+              (экскурсионное название). Высота водопада 41,5 метр - это один из
+              самых высоких водопадов Большого Сочи...
+            </p>
+            <div>
+              <button type="button" class="button button__popular-tours">
+                Подробнее &rarr;
+              </button>
+            </div>
           </div>
         </div>
-        <div class="popular-tours__dragon">
-          <p class="popular-tours__category"> Квадротур</p>
-          <h2 class="popular-tours__title">Пасть дракона</h2>
-          <p class="popular-tours__time_price"><img src="assets/images/time_icon.png" alt="time_icon"> 2,5 часа<img
-              src="assets/images/price_icon.png" alt="price_icon">3 515 ₽</p>
-          <p class="main__text main__text_white">Маршрут на Квадроциклах проходит по горной реке Мзымта вдоль белых скал
-            и самшитовый лес к водопаду Глубокий Яр или "Пасть Дракона" (экскурсионное название).
-            Высота водопада 41,5 метр - это один из самых высоких водопадов Большого Сочи...</p>
-          <div>
-            <button type="button" class="button button__popular-tours">Подробнее &rarr;</button>
+      </section>
+      <section class="about-us">
+        <!-- О нас. Ответственный - Катя -->
+        <img
+          class="about-us__image"
+          src="assets/images/about_us.png"
+          alt="о нас"
+        />
+        <div class="about-us__paragraph">
+          <h2 class="main__title">О нас</h2>
+          <p class="main__text main__text_black">
+            PeroTravel - Первый онлайн-сервис по бронированию экскурсий без
+            очередей и операторов. <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <p class="main__text main__text_black">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo.
+          </p>
+        </div>
+      </section>
+      <section class="excursion-type">
+        <!-- Виды экскурсий. Ответственный - Оля -->
+        <h2 class="main__title main__title_basisMargin">Виды экскурсий</h2>
+        <section class="excursion-type__item">
+          <img
+            src="assets/images/autobus.png"
+            alt="автобусный тур"
+            class="excursion-type__icon"
+          />
+          <div class="excursion-type__paragraph">
+            <h3 class="excursion-type__title">Автобусный тур</h3>
+            <p class="main__text main__text_black">
+              Один из самых насыщенных впечатлениями, доступных по цене и
+              популярных видов отдыха. Во время одной поездки можно посмотреть
+              достопримечательности сразу нескольких городов, причем обойдется
+              это едва ли не в разы дешевле классического экскурсионного тура с
+              ночевками в отелях.
+            </p>
           </div>
-        </div>
-      </div>
-    </section>
-    <section class="about-us">
-      <!-- О нас. Ответственный - Катя -->
-      <img class="about-us__image" src="assets/images/about_us.png" alt="о нас" />
-      <div class="about-us__paragraph">
-        <h2 class="main__title">О нас</h2>
-        <p class="main__text main__text_black">
-          PeroTravel - Первый онлайн-сервис по бронированию экскурсий без
-          очередей и операторов. <br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
-        <p class="main__text main__text_black">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-          quae ab illo inventore veritatis et quasi architecto beatae vitae
-          dicta sunt explicabo.
-        </p>
-      </div>
-    </section>
-    <section class="excursion-type">
-      <!-- Виды экскурсий. Ответственный - Оля -->
-      <h2 class="main__title main__title_basisMargin">Виды экскурсий</h2>
-      <section class="excursion-type__item">
-        <img src="assets/images/autobus.png" alt="автобусный тур" class="excursion-type__icon" />
-        <div class="excursion-type__paragraph">
-          <h3 class="excursion-type__title">Автобусный тур</h3>
+        </section>
+        <section class="excursion-type__item">
+          <img
+            src="assets/images/jeep.png"
+            alt="джиппинг"
+            class="excursion-type__icon"
+          />
+          <div class="excursion-type__paragraph">
+            <h3 class="excursion-type__title">Джиппинг</h3>
+            <p class="main__text main__text_black">
+              Это путешествие на автомобилях высокой проходимости с преодолением
+              естественных препятствий, это экстремальный вид спорта и отдыха,
+              представляющий собой прохождение туристического маршрута по
+              бездорожью на автомобилях.
+            </p>
+          </div>
+        </section>
+        <section class="excursion-type__item">
+          <img
+            src="assets/images/yacht.png"
+            alt="яхтинг"
+            class="excursion-type__icon"
+          />
+          <div class="excursion-type__paragraph">
+            <h3 class="excursion-type__title">Яхтинг</h3>
+            <p class="main__text main__text_black">
+              Это то же, что круиз на лайнере или прогулка на пароме, только на
+              яхте больше свободы, размеры судна в разы меньше, нет назойливой
+              команды, можно самостоятельно почувствовать себя капитаном,
+              постоять за штурвалом. Именно здесь вы почувствуете величайшие
+              просторы Черногор моря.
+            </p>
+          </div>
+        </section>
+        <section class="excursion-type__item">
+          <img
+            src="assets/images/canyon.png"
+            alt="каньонинг"
+            class="excursion-type__icon_smHeight"
+          />
+          <div class="excursion-type__paragraph">
+            <h3 class="excursion-type__title">Каньонинг</h3>
+            <p class="main__text main__text_black">
+              Это экстремально-спортивный вид отдыха, который заключается в
+              преодолении каньонов (обводненных или нет) при помощи
+              альпинистского и иного снаряжения, а иногда и вброд, но без лодок
+              или иных плавсредств.
+            </p>
+          </div>
+        </section>
+        <div class="excursion-more">
           <p class="main__text main__text_black">
-            Один из самых насыщенных впечатлениями, доступных по цене и
-            популярных видов отдыха. Во время одной поездки можно посмотреть
-            достопримечательности сразу нескольких городов, причем обойдется
-            это едва ли не в разы дешевле классического экскурсионного тура с
-            ночевками в отелях.
+            Выбирайте на нашем сайте экскурсию, которая подходит именно вам и
+            записывайтесь онлайн без очередей, просто и быстро!
           </p>
+          <button type="button" class="button">К экскурсиям &rarr;</button>
         </div>
       </section>
-      <section class="excursion-type__item">
-        <img src="assets/images/jeep.png" alt="джиппинг" class="excursion-type__icon" />
-        <div class="excursion-type__paragraph">
-          <h3 class="excursion-type__title">Джиппинг</h3>
-          <p class="main__text main__text_black">
-            Это путешествие на автомобилях высокой проходимости с преодолением
-            естественных препятствий, это экстремальный вид спорта и отдыха,
-            представляющий собой прохождение туристического маршрута по
-            бездорожью на автомобилях.
-          </p>
+      <!-- Галерея. Ответственный - Марина -->
+      <section class="gallery">
+        <div class="gallery__text">
+          <h2 class="main__title main__title_basisMargin">Галерея</h2>
+          <p class="main__text main__text_underlined">Смотреть все</p>
+        </div>
+        <div class="gallery-paysage">
+          <img
+            src="assets/images/paysage_1.png"
+            alt="paysage_1"
+            class="gallery__picture gallery__picture_item-1"
+          />
+          <img
+            src="assets/images/paysage_2.png"
+            alt="paysage_2"
+            class="gallery__picture gallery__picture_item-2"
+          />
+          <img
+            src="assets/images/paysage_3.png"
+            alt="paysage_3"
+            class="gallery__picture gallery__picture_item-3"
+          />
+          <img
+            src="assets/images/paysage_4.png"
+            alt="paysage_4"
+            class="gallery__picture gallery__picture_item-4"
+          />
+          <img
+            src="assets/images/paysage_5.png"
+            alt="paysage_5"
+            class="gallery__picture gallery__picture_item-5"
+          />
+          <img
+            src="assets/images/paysage_6.png"
+            alt="paysage_6"
+            class="gallery__picture gallery__picture_item-6"
+          />
+          <img
+            src="assets/images/paysage_7.png"
+            alt="paysage_7"
+            class="gallery__picture gallery__picture_item-7"
+          />
+          <img
+            src="assets/images/paysage_8.png"
+            alt="paysage_8"
+            class="gallery__picture gallery__picture_item-8"
+          />
         </div>
       </section>
-      <section class="excursion-type__item">
-        <img src="assets/images/yacht.png" alt="яхтинг" class="excursion-type__icon" />
-        <div class="excursion-type__paragraph">
-          <h3 class="excursion-type__title">Яхтинг</h3>
-          <p class="main__text main__text_black">
-            Это то же, что круиз на лайнере или прогулка на пароме, только на
-            яхте больше свободы, размеры судна в разы меньше, нет назойливой
-            команды, можно самостоятельно почувствовать себя капитаном,
-            постоять за штурвалом. Именно здесь вы почувствуете величайшие
-            просторы Черногор моря.
-          </p>
+    </main>
+    <footer class="footer">
+      <div class="footer_wrap">
+        <img
+          class="logo_footer"
+          src="assets/images/logo_color_1.png"
+          alt="logo"
+        />
+        <div class="social-icon_wrapmob">
+          <img
+            class="social-icon__itemred"
+            src="assets/svg/vk_2.svg"
+            alt="vk"
+          />
+          <img
+            class="social-icon__itemyellow"
+            src="assets/svg/inst_2.svg"
+            alt="inst"
+          />
+          <img
+            class="social-icon__item_fbblue"
+            src="assets/svg/facebook_2.svg"
+            alt="fb"
+          />
         </div>
-      </section>
-      <section class="excursion-type__item">
-        <img src="assets/images/canyon.png" alt="каньонинг" class="excursion-type__icon_smHeight" />
-        <div class="excursion-type__paragraph">
-          <h3 class="excursion-type__title">Каньонинг</h3>
-          <p class="main__text main__text_black">
-            Это экстремально-спортивный вид отдыха, который заключается в
-            преодолении каньонов (обводненных или нет) при помощи
-            альпинистского и иного снаряжения, а иногда и вброд, но без лодок
-            или иных плавсредств.
-          </p>
-        </div>
-      </section>
-      <div class="excursion-more">
-        <p class="main__text main__text_black">
-          Выбирайте на нашем сайте экскурсию, которая подходит именно вам и
-          записывайтесь онлайн без очередей, просто и быстро!
-        </p>
-        <button type="button" class="button">К экскурсиям &rarr;</button>
-      </div>
-    </section>
-    <!-- Галерея. Ответственный - Марина -->
-    <section class="gallery">
-      <div class="gallery__text">
-        <h2 class="main__title main__title_basisMargin">Галерея</h2>
-        <p class="main__text main__text_underlined">Смотреть все</p>
-      </div>
-      <div class="gallery-paysage">
-        <img src="assets/images/paysage_1.png" alt="paysage_1" class="gallery__picture gallery__picture_item-1">
-        <img src="assets/images/paysage_2.png" alt="paysage_2" class="gallery__picture gallery__picture_item-2">
-        <img src="assets/images/paysage_3.png" alt="paysage_3" class="gallery__picture gallery__picture_item-3">
-        <img src="assets/images/paysage_4.png" alt="paysage_4" class="gallery__picture gallery__picture_item-4">
-        <img src="assets/images/paysage_5.png" alt="paysage_5" class="gallery__picture gallery__picture_item-5">
-        <img src="assets/images/paysage_6.png" alt="paysage_6" class="gallery__picture gallery__picture_item-6">
-        <img src="assets/images/paysage_7.png" alt="paysage_7" class="gallery__picture gallery__picture_item-7">
-        <img src="assets/images/paysage_8.png" alt="paysage_8" class="gallery__picture gallery__picture_item-8">
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer_wrap">
-      <img class="logo_footer" src="assets/images/logo_color_1.png" alt="logo" />
-      <div class="social-icon_wrapmob">
-        <img class="social-icon__itemred" src="assets/svg/vk_2.svg" alt="vk" />
-        <img class="social-icon__itemyellow" src="assets/svg/inst_2.svg" alt="inst" />
-        <img class="social-icon__item_fbblue" src="assets/svg/facebook_2.svg" alt="fb" />
-      </div>
-      <div class="footer__menu">
-        <a class="footer__menu_item" href="#">Главная</a>
-        <a class="footer__menu_item" href="#">Экскурсии</a>
-        <a class="footer__menu_item" href="#">Личный кабинет</a>
-      </div>
-      <div class="footer__icons">
-        <img src="assets/svg/wh_1.svg" alt="wa" class="footer__icon_item" />
-        <img src="assets/svg/tg_1.svg" alt="tg" class="footer__icon_item" />
-        <img src="assets/svg/tg_2.svg" alt="tg" class="footer__icon_item" />
-      </div>
-      <div class="footer__contacts">
-        <p class="footer__contacts footer__contacts_item">+7 964 944 18 74</p>
-        <p class="footer__contacts footer__contacts_item">+7 918 919 98 28</p>
-        <p class="footer__contacts footer__contacts_item">
-          Телеграм-бот PeroTravel
-        </p>
-      </div>
-      <div>
-        <div class="footer__socials footer__socials_post">
-          <img src="assets/svg/mail_1.svg" alt="mail" />
-          <p class="footer__socials footer__socials_address">
-            office@perotravel.ru
-          </p>
-        </div>
-        <div class="social-icon_wrap">
-          <img class="social-icon__itemred" src="assets/svg/vk_2.svg" alt="vk" />
-          <img class="social-icon__itemyellow" src="assets/svg/inst_2.svg" alt="inst" />
-          <img class="social-icon__item_fbblue" src="assets/svg/facebook_2.svg" alt="fb" />
-        </div>
-      </div>
-      <div class="footer_mob">
-        <div class="footer__menu_mob">
+        <div class="footer__menu">
           <a class="footer__menu_item" href="#">Главная</a>
           <a class="footer__menu_item" href="#">Экскурсии</a>
           <a class="footer__menu_item" href="#">Личный кабинет</a>
         </div>
-        <div class="footer__socials_mob">
-          <div class="footer__icons_mob">
-            <img src="assets/svg/wh_1.svg" alt="wa" class="footer__icon_item" />
-            <img src="assets/svg/tg_1.svg" alt="tg" class="footer__icon_item" />
-            <img src="assets/svg/tg_2.svg" alt="tg" class="footer__icon_item" />
-            <img src="assets/svg/mail_1.svg" alt="mail" class="footer__icon_item" />
-          </div>
-          <div class="footer__contacts_mob">
-            <p class="footer__contacts footer__contacts_item">+7 964 944 18 74</p>
-            <p class="footer__contacts footer__contacts_item">+7 918 919 98 28</p>
-            <p class="footer__contacts footer__contacts_item">
-              Телеграм-бот PeroTravel
-            </p>
-            <p class="footer__socials footer__contacts_item">
+        <div class="footer__icons">
+          <img src="assets/svg/wh_1.svg" alt="wa" class="footer__icon_item" />
+          <img src="assets/svg/tg_1.svg" alt="tg" class="footer__icon_item" />
+          <img src="assets/svg/tg_2.svg" alt="tg" class="footer__icon_item" />
+        </div>
+        <div class="footer__contacts">
+          <p class="footer__contacts footer__contacts_item">+7 964 944 18 74</p>
+          <p class="footer__contacts footer__contacts_item">+7 918 919 98 28</p>
+          <p class="footer__contacts footer__contacts_item">
+            Телеграм-бот PeroTravel
+          </p>
+        </div>
+        <div>
+          <div class="footer__socials footer__socials_post">
+            <img src="assets/svg/mail_1.svg" alt="mail" />
+            <p class="footer__socials footer__socials_address">
               office@perotravel.ru
             </p>
           </div>
+          <div class="social-icon_wrap">
+            <img
+              class="social-icon__itemred"
+              src="assets/svg/vk_2.svg"
+              alt="vk"
+            />
+            <img
+              class="social-icon__itemyellow"
+              src="assets/svg/inst_2.svg"
+              alt="inst"
+            />
+            <img
+              class="social-icon__item_fbblue"
+              src="assets/svg/facebook_2.svg"
+              alt="fb"
+            />
+          </div>
+        </div>
+        <div class="footer_mob">
+          <div class="footer__menu_mob">
+            <a class="footer__menu_item" href="#">Главная</a>
+            <a class="footer__menu_item" href="#">Экскурсии</a>
+            <a class="footer__menu_item" href="#">Личный кабинет</a>
+          </div>
+          <div class="footer__socials_mob">
+            <div class="footer__icons_mob">
+              <img
+                src="assets/svg/wh_1.svg"
+                alt="wa"
+                class="footer__icon_item"
+              />
+              <img
+                src="assets/svg/tg_1.svg"
+                alt="tg"
+                class="footer__icon_item"
+              />
+              <img
+                src="assets/svg/tg_2.svg"
+                alt="tg"
+                class="footer__icon_item"
+              />
+              <img
+                src="assets/svg/mail_1.svg"
+                alt="mail"
+                class="footer__icon_item"
+              />
+            </div>
+            <div class="footer__contacts_mob">
+              <p class="footer__contacts footer__contacts_item">
+                +7 964 944 18 74
+              </p>
+              <p class="footer__contacts footer__contacts_item">
+                +7 918 919 98 28
+              </p>
+              <p class="footer__contacts footer__contacts_item">
+                Телеграм-бот PeroTravel
+              </p>
+              <p class="footer__socials footer__contacts_item">
+                office@perotravel.ru
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

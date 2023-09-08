@@ -290,17 +290,19 @@ body {
 /* Стили. О нас. Ответственный - Катя  */
 
 .about-us__image {
-  width: 70%;
-}
+  width:80vw;
+  height:83vh;
+  object-fit: cover;
+    }
 
 .about-us__paragraph {
   position: absolute;
-  top: 20%;
-  right: 15%;
-  max-width: 30vw;
-  min-height: 50%;
+  top: 190px;
+  right: 150px;
+  max-width: 542px;
+  min-height: 476px;
   box-sizing: border-box;
-  padding: 2% 3% 2% 3%;
+  padding: 40px;
   background-color: #EDEDED;
   border-radius: 2%;
 }
@@ -668,8 +670,7 @@ body {
   /* Здесь будет адаптив Популярные экскурсии - Софья */
 
   /* Здесь будет адаптив О нас - Катя */
-  @media screen and (max-width:768px){
-    .about-us__paragraph {
+      .about-us__paragraph {
       padding: 1% 2% 1% 2%;
     }
   }

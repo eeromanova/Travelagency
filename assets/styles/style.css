@@ -290,10 +290,10 @@ body {
 /* Стили. О нас. Ответственный - Катя  */
 
 .about-us__image {
-  width:80vw;
-  height:83vh;
+  width: 80vw;
+  height: 83vh;
   object-fit: cover;
-    }
+}
 
 .about-us__paragraph {
   position: absolute;
@@ -303,7 +303,7 @@ body {
   min-height: 476px;
   box-sizing: border-box;
   padding: 40px;
-  background-color: #EDEDED;
+  background-color: #ededed;
   border-radius: 2%;
 }
 
@@ -816,7 +816,7 @@ body {
     max-width: 350px;
     min-height: 400px;
     padding: 15px;
-
+  }
   /* Здесь будет адаптив Виды экскурсий - Оля  */
   .excursion-type {
     margin: 150px 6% auto 6%;
@@ -890,5 +890,22 @@ body {
   .social-icon_wrapmob {
     display: flex;
     flex-direction: row;
+  }
+}
+@media screen and (max-width: 330px) {
+  .excursion-type__paragraph {
+    width: 45%;
+  }
+  .button {
+    width: 14.3755rem;
+  }
+  .excursion-more {
+    width: 84%;
+  }
+  .main__text_black {
+    font-size: 11px;
+  }
+  .excursion-type {
+    margin: 150px 2% auto 2%;
   }
 }

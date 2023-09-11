@@ -435,74 +435,46 @@ body {
   text-decoration: underline;
   margin-block-end: 90px;
 }
-
 .gallery-paysage {
   height: 40vw;
-  width: 100%;
+  width: 95%;
+  margin: auto;
   display: grid;
-  grid-gap: 1.4em;
+  grid-template-columns: 16% 20% 28% 20% 16%;
+  grid-template-rows: 54% 23% 23%;
+  grid-template-areas:
+    "one one two three four"
+    "five six two eight eight"
+    "five seven two eight eight";
+  justify-content: stretch;
+  align-items: stretch;
+  grid-gap: 8px;
+  justify-items: stretch;
 }
-
-.gallery__picture {
-  border-radius: 0.5em;
-}
-
 .gallery__picture_item-1 {
-  grid-column: 1/3;
-  grid-row: 1/2;
-  width: 35vw;
-  height: 19.9vw;
+  grid-area: one;
 }
-
 .gallery__picture_item-2 {
-  grid-row: 1/4;
-  grid-column: 3/4;
-  width: 25vw;
-  height: 100%;
+  grid-area: two;
 }
-
 .gallery__picture_item-3 {
-  grid-column: 4/5;
-  grid-row: 1/2;
-  width: 18vw;
-  height: 18.7vw;
+  grid-area: three;
 }
-
 .gallery__picture_item-4 {
-  grid-column: 5/6;
-  grid-row: 1/2;
-  width: 14.5vw;
-  height: 18.7vw;
+  grid-area: four;
 }
-
 .gallery__picture_item-5 {
-  grid-row: 2/4;
-  grid-column: 1/2;
-  width: 15vw;
-  height: 18.7vw;
+  grid-area: five;
 }
-
 .gallery__picture_item-6 {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  width: 18.6vw;
-  height: 8.75vw;
+  grid-area: six;
 }
-
 .gallery__picture_item-7 {
-  grid-column: 2/3;
-  grid-row: 3/4;
-  width: 18.6vw;
-  height: 8.75vw;
+  grid-area: seven;
 }
-
 .gallery__picture_item-8 {
-  grid-column: 4/6;
-  grid-row: 2/4;
-  width: 34vw;
-  height: 18.5vw;
+  grid-area: eight;
 }
-
 .footer {
   min-height: 12vw;
   max-height: 173px;
@@ -788,14 +760,45 @@ body {
     justify-content: space-between;
     align-items: flex-start;
   }
-
   .gallery-paysage {
     height: 73.82vw;
-    width: 100%;
+    width: 95%;
+    margin: auto;
     display: grid;
-    grid-gap: 1.4em;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 54% 46%;
+    grid-template-areas:
+      "two three four"
+      "two eight eight";
+    justify-content: stretch;
+    align-items: stretch;
+    grid-gap: 8px;
+    justify-items: stretch;
   }
-
+  .gallery__picture_item-1 {
+    display: none;
+  }
+  .gallery__picture_item-2 {
+    grid-area: two;
+  }
+  .gallery__picture_item-3 {
+    grid-area: three;
+  }
+  .gallery__picture_item-4 {
+    grid-area: four;
+  }
+  .gallery__picture_item-5 {
+    display: none;
+  }
+  .gallery__picture_item-6 {
+    display: none;
+  }
+  .gallery__picture_item-7 {
+    display: none;
+  }
+  .gallery__picture_item-8 {
+    grid-area: eight;
+  }
   .gallery__picture {
     border-radius: 0.5em;
   }
@@ -822,53 +825,6 @@ body {
     font-size: 1.56vw;
   }
 }
-
-@media screen and (min-width: 429px) and (max-width: 768px) {
-  .gallery__picture_item-1 {
-    display: none;
-  }
-
-  .gallery__picture_item-2 {
-    grid-row: 1/3;
-    grid-column: 1/2;
-    width: 26.7vw;
-    height: 100%;
-  }
-
-  .gallery__picture_item-3 {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    width: 34.6vw;
-    height: 34.37vw;
-  }
-
-  .gallery__picture_item-4 {
-    grid-column: 3/4;
-    grid-row: 1/2;
-    width: 28vw;
-    height: 34.37vw;
-  }
-
-  .gallery__picture_item-5 {
-    display: none;
-  }
-
-  .gallery__picture_item-6 {
-    display: none;
-  }
-
-  .gallery__picture_item-7 {
-    display: none;
-  }
-
-  .gallery__picture_item-8 {
-    grid-column: 2/4;
-    grid-row: 2/3;
-    width: 65.48vw;
-    height: 36.84vw;
-  }
-}
-
 @media screen and (max-width: 690px) {
   .popular-tours__horse-rides {
     display: none;
@@ -1011,61 +967,46 @@ body {
     justify-content: space-between;
     align-items: flex-start;
   }
-
   .gallery-paysage {
-    height: 160vw;
-    width: 89%;
+    height: 550px;
+    width: 95%;
+    margin: auto;
     display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 34%;
+    grid-template-areas:
+      "two three"
+      "two four"
+      "eight eight";
+    justify-content: stretch;
+    align-items: stretch;
+    grid-gap: 8px;
+    justify-items: stretch;
   }
-
-  .gallery__picture {
-    border-radius: 0.5em;
-  }
-
   .gallery__picture_item-1 {
-    grid-column: 1/3;
-    grid-row: 3/4;
-    width: 89vw;
-    height: 60.8vw;
-  }
-
-  .gallery__picture_item-2 {
-    grid-column: 1/2;
-    grid-row: 1/3;
-    width: 42.1vw;
-    height: 93vw;
-  }
-
-  .gallery__picture_item-3 {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    width: 42.1vw;
-    height: 43.46vw;
-  }
-
-  .gallery__picture_item-4 {
     display: none;
   }
-
+  .gallery__picture_item-2 {
+    grid-area: two;
+  }
+  .gallery__picture_item-3 {
+    grid-area: three;
+  }
+  .gallery__picture_item-4 {
+    grid-area: four;
+  }
   .gallery__picture_item-5 {
     display: none;
   }
-
   .gallery__picture_item-6 {
     display: none;
   }
-
   .gallery__picture_item-7 {
     display: none;
   }
-
   .gallery__picture_item-8 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    width: 42.1vw;
-    height: 45.33vw;
+    grid-area: eight;
   }
-
   .footer {
     min-height: 30vw;
     max-height: 412px;

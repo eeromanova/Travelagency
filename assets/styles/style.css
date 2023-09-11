@@ -1065,4 +1065,10 @@ body {
   .excursion-type {
     margin: 150px 2% auto 2%;
   }
-}
+  .about-us__paragraph {
+    top: 184px;
+    right: -40px;
+    max-width: 350px;
+    min-height: 349px;
+    padding: 20px;
+}}

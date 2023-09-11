@@ -211,8 +211,9 @@ body {
 .popular-tours__sochi {
   display: flex;
   flex-flow: column;
+  justify-content: space-between;
   /* width: 328px; */
-  height: 300px;
+  min-height: 300px;
   padding: 190px 16px 42px 16px;
   flex: 1 1 33%;
   /* flex-shrink: 0; */
@@ -222,6 +223,8 @@ body {
     lightgray -22.3px -8px / 112.389% 101.61% no-repeat;
   background-size: cover;
 }
+
+/**/
 
 .popular-tours__category {
   color: #fff;
@@ -255,6 +258,8 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: center;
+
   /* padding-bottom: 5vh; */
 }
 
@@ -269,8 +274,9 @@ body {
 .popular-tours__horse-rides {
   display: flex;
   flex-flow: column;
+  justify-content: space-between;
   /* width: 328px; */
-  height: 300px;
+  min-height: 300px;
   padding: 190px 16px 42px 16px;
   flex: 1 1 33%;
   /* flex-shrink: 0; */
@@ -284,8 +290,9 @@ body {
 .popular-tours__dragon {
   display: flex;
   flex-flow: column;
+  justify-content: space-between;
   /* width: 328px; */
-  height: 300px;
+  min-height: 300px;
   padding: 190px 16px 42px 16px;
   flex: 1 1 33%;
   /* flex-shrink: 0; */
@@ -300,6 +307,22 @@ body {
   width: 9.675em;
   height: 2.7em;
   font-size: 12px;
+
+}
+
+#horse_text {
+  height: 152px;
+
+}
+
+#sochi_text {
+  height: 152px;
+
+}
+
+#dragon_text {
+  height: 152px;
+
 }
 
 /* Стили. О нас. Ответственный - Катя  */
@@ -646,6 +669,23 @@ body {
     background-size: cover;
   }
 
+  .header__title_small {
+    position: absolute;
+    top: 60%;
+    margin-top: 0;
+    left: 75%;
+    font-size: 6.25vw;
+  }
+
+  .header__title_wrap1 {
+    position: relative;
+  }
+
+  .header__title_main {
+    font-size: 96px;
+    line-height: 0.8em;
+  }
+
   .header__video {
     position: absolute;
     width: 38vw;
@@ -693,7 +733,6 @@ body {
 
   .header__title_small {
     position: absolute;
-    top: -1.3rem;
     left: 19rem;
     font-size: 48px;
   }
@@ -895,7 +934,6 @@ body {
 
   .header__title_small {
     position: absolute;
-    top: -1.5rem;
     left: 13rem;
     font-size: 48px;
   }
@@ -1142,6 +1180,26 @@ body {
     max-width: 350px;
     min-height: 349px;
     padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .popular-tours__dragon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .popular-tours__horse-rides {
+    display: none;
+
+    .about-us__paragraph {
+      top: 184px;
+      right: -40px;
+      max-width: 350px;
+      min-height: 349px;
+      padding: 20px;
+    }
   }
 }
 

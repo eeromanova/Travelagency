@@ -320,7 +320,7 @@ body {
   max-width: 542px;
   min-height: 476px;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 70px;
   background-color: #ededed;
   border-radius: 2%;
 }
@@ -513,6 +513,7 @@ body {
 
 .footer {
   height: 12vw;
+  width: 100vw;
   display: grid;
   align-items: center;
   background-color: #ededed;
@@ -581,7 +582,7 @@ body {
 
 .footer__contacts_item {
   margin: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 10px;
   white-space: nowrap;
   font-family: "Montserrat", sans-serif;
   color: #282828;
@@ -648,6 +649,23 @@ body {
     background-size: cover;
   }
 
+  .header__title_small {
+    position: absolute;
+    top: 60%;
+    margin-top: 0;
+    left: 75%;
+    font-size: 6.25vw;
+  }
+
+  .header__title_wrap1 {
+    position: relative;
+  }
+
+  .header__title_main {
+    font-size: 96px;
+    line-height: 0.8em;
+  }
+
   .header__video {
     position: absolute;
     width: 38vw;
@@ -695,7 +713,6 @@ body {
 
   .header__title_small {
     position: absolute;
-    top: -1.3rem;
     left: 19rem;
     font-size: 48px;
   }
@@ -739,7 +756,7 @@ body {
     right: 50px;
     max-width: 442px;
     min-height: 450px;
-    padding: 25px;
+    padding: 55px;
   }
 
   /* Здесь будет адаптив Виды экскурсий - Оля  */
@@ -762,16 +779,21 @@ body {
     height: 22.5vw;
   }
 
+  .logo_footer {
+    width: 65px;
+    height: 93px;
+  }
+
   .footer__menu_item {
-    font-size: 12px;
+    font-size: 1.56vw;
   }
 
   .footer__contacts_item {
-    font-size: 12px;
+    font-size: 1.56vw;
   }
 
   .footer__socials_address {
-    font-size: 12px;
+    font-size: 1.56vw;
   }
 }
 
@@ -819,7 +841,6 @@ body {
 
   .header__title_small {
     position: absolute;
-    top: -1.5rem;
     left: 13rem;
     font-size: 48px;
   }
@@ -877,9 +898,9 @@ body {
   .about-us__paragraph {
     top: 165px;
     right: -40px;
-    max-width: 350px;
+    max-width: 361px;
     min-height: 400px;
-    padding: 15px;
+    padding: 28px;
   }
 
   /* Здесь будет адаптив Виды экскурсий - Оля  */
@@ -1079,5 +1100,49 @@ body {
 @media screen and (max-width: 428px) {
   .popular-tours__horse-rides {
     display: none;
+
+    .about-us__paragraph {
+      top: 184px;
+      right: -40px;
+      max-width: 350px;
+      min-height: 349px;
+      padding: 20px;
+    }
   }
-}
+
+  @media screen and (max-width: 370px) {
+    .header__title_big {
+      font-size: 8.4vw;
+    }
+
+    .header__title_wrap1 {
+      position: relative;
+    }
+
+    .header__title_small {
+      position: absolute;
+      margin-top: 0;
+      top: 40%;
+      left: 50%;
+      font-size: 11.2vw;
+    }
+
+    .header__title_main {
+      font-size: 16.8vw;
+      line-height: 1em;
+    }
+
+    .footer__menu_item {
+      font-size: 2.8vw;
+    }
+
+    .footer__contacts_item {
+      font-size: 2.8vw;
+      margin-bottom: 2.5vw;
+    }
+
+    .footer__icon_item {
+      width: 4.44vw;
+      height: 4.44vw;
+    }
+  }

@@ -31,7 +31,6 @@
 }
 
 body {
-  /* font-size: 1em; */
   overflow-x: hidden;
 }
 
@@ -200,31 +199,23 @@ body {
   right: 40%;
   z-index: 1;
 }
-
-/*популярные туры, ответственный Софья*/
-
 .popular-tours {
-  margin-top: 263px;
-  /* padding: 20vh 13vw 30vh 13vw; */
+  margin-top: 5%;
 }
 
 .popular-tours__sochi {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  /* width: 328px; */
   min-height: 300px;
   padding: 190px 16px 42px 16px;
   flex: 1 1 33%;
-  /* flex-shrink: 0; */
   border-radius: 10px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.12) 0%, #000 100%),
     url(../images/img_sochi.png),
     lightgray -22.3px -8px / 112.389% 101.61% no-repeat;
   background-size: cover;
 }
-
-/**/
 
 .popular-tours__category {
   color: #fff;
@@ -259,8 +250,6 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-
-  /* padding-bottom: 5vh; */
 }
 
 .popular-tours__cards {
@@ -275,11 +264,9 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  /* width: 328px; */
   min-height: 300px;
   padding: 190px 16px 42px 16px;
   flex: 1 1 33%;
-  /* flex-shrink: 0; */
   border-radius: 10px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%),
     url(../images/img_horse_riding.png),
@@ -291,11 +278,9 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  /* width: 328px; */
   min-height: 300px;
   padding: 190px 16px 42px 16px;
   flex: 1 1 33%;
-  /* flex-shrink: 0; */
   border-radius: 10px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%),
     url(../images/img_dragon.png),
@@ -307,26 +292,19 @@ body {
   width: 9.675em;
   height: 2.7em;
   font-size: 12px;
-
 }
 
 #horse_text {
   height: 152px;
-
 }
 
 #sochi_text {
   height: 152px;
-
 }
 
 #dragon_text {
   height: 152px;
-
 }
-
-/* Стили. О нас. Ответственный - Катя  */
-
 .about-us__image {
   width: 80vw;
   height: 83vh;
@@ -348,8 +326,6 @@ body {
 .about-us {
   position: relative;
 }
-
-/* Стили.Виды экскурсий. Ответственный - Оля */
 
 .excursion-type {
   margin: auto 11%;
@@ -439,7 +415,6 @@ body {
   min-height: 20%;
 }
 
-/* Стили. Галерея. Ответственный - Марина */
 .gallery {
   width: 98%;
   margin: auto;
@@ -532,7 +507,8 @@ body {
 }
 
 .footer {
-  height: 12vw;
+  min-height: 12vw;
+  max-height: 173px;
   width: 100vw;
   display: grid;
   align-items: center;
@@ -767,10 +743,9 @@ body {
     top: 30%;
     right: 40%;
   }
-
-  /* Здесь будет адаптив Популярные экскурсии - Софья */
-
-  /* Здесь будет адаптив О нас - Катя */
+  .popular-tours__dragon {
+    display: none;
+  }
   .about-us__paragraph {
     top: 150px;
     right: 50px;
@@ -779,7 +754,6 @@ body {
     padding: 55px;
   }
 
-  /* Здесь будет адаптив Виды экскурсий - Оля  */
   .excursion-type {
     margin: 150px 10% auto 10%;
     flex-direction: column;
@@ -792,8 +766,6 @@ body {
   .excursion-more {
     width: 100%;
   }
-
-  /* Здесь будет адаптив Галерея - Марина */
   .gallery {
     width: 94.79%;
     margin: auto;
@@ -821,7 +793,8 @@ body {
   }
 
   .footer {
-    height: 22.5vw;
+    min-height: 22.5vw;
+    max-height: 173px;
   }
 
   .logo_footer {
@@ -843,8 +816,6 @@ body {
 }
 
 @media screen and (min-width: 429px) and (max-width: 768px) {
-
-  /* Здесь будет адаптив Галерея - Марина */
   .gallery__picture_item-1 {
     display: none;
   }
@@ -984,10 +955,9 @@ body {
     top: 30%;
     right: 40%;
   }
-
-  /* Здесь будет адаптив Популярные экскурсии - Софья */
-
-  /* Здесь будет адаптив О нас - Катя */
+  .popular-tours__horse-rides {
+    display: none;
+  }
   .about-us__paragraph {
     top: 165px;
     right: -40px;
@@ -996,7 +966,6 @@ body {
     padding: 28px;
   }
 
-  /* Здесь будет адаптив Виды экскурсий - Оля  */
   .excursion-type {
     margin: 150px 6% auto 6%;
   }
@@ -1005,7 +974,6 @@ body {
     font-size: 13px;
   }
 
-  /* Здесь будет адаптив Галерея - Марина */
   .gallery {
     width: 89%;
     margin: auto;
@@ -1076,7 +1044,9 @@ body {
   }
 
   .footer {
-    height: 412px;
+    min-height: 30vw;
+    max-height: 412px;
+    padding-top: 10%;
   }
 
   .footer_wrap {
@@ -1182,27 +1152,6 @@ body {
     padding: 20px;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .popular-tours__dragon {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 428px) {
-  .popular-tours__horse-rides {
-    display: none;
-
-    .about-us__paragraph {
-      top: 184px;
-      right: -40px;
-      max-width: 350px;
-      min-height: 349px;
-      padding: 20px;
-    }
-  }
-}
-
 @media screen and (max-width: 370px) {
   .header__title_big {
     font-size: 8.4vw;

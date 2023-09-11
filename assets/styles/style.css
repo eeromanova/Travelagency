@@ -413,10 +413,8 @@ body {
 }
 
 .gallery {
-  width: 98%;
-  margin: auto;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  width: 95vw;
+  margin: 150px auto;
 }
 
 .gallery__text {
@@ -437,10 +435,10 @@ body {
 }
 .gallery-paysage {
   height: 40vw;
-  width: 95%;
-  margin: auto;
+  /* width: 95%; */
+  margin: 0;
   display: grid;
-  grid-template-columns: 16% 20% 28% 20% 16%;
+  grid-template-columns: 14% 18% 28% 18% 14%;
   grid-template-rows: 54% 23% 23%;
   grid-template-areas:
     "one one two three four"
@@ -448,7 +446,7 @@ body {
     "five seven two eight eight";
   justify-content: stretch;
   align-items: stretch;
-  grid-gap: 8px;
+  grid-gap: 2%;
   justify-items: stretch;
 }
 .gallery__picture_item-1 {
@@ -643,6 +641,10 @@ body {
     right: 10.2%;
     top: 950px;
   }
+  .logo_footer {
+    width: 7vw;
+    height: 9.975vw;
+  }
 }
 
 @media screen and (max-width: 933px) {
@@ -823,6 +825,20 @@ body {
 
   .footer__socials_address {
     font-size: 1.56vw;
+  }
+  .social-icon__itemred {
+    width: 4.9vw;
+    height: 4.9vw;
+  }
+  
+  .social-icon__itemyellow {
+    width: 4.2vw;
+    height: 4.2vw;
+  }
+  
+  .social-icon__item_fbblue {
+    width: 3.9vw;
+    height: 3.9vw;
   }
 }
 @media screen and (max-width: 690px) {

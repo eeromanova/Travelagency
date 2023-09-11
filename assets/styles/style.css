@@ -1193,8 +1193,17 @@ body {
   .popular-tours__horse-rides {
     display: none;
   }
+
+  p.main__text_underlined {
+    display: none;
+  }
 }
 
+@media screen and (max-width: 570px) {
+  .popular-tours {
+    margin-top: 150px;
+  }
+}
 
 @media screen and (max-width: 428px) {
   .about-us__paragraph {

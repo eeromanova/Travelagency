@@ -317,7 +317,7 @@ body {
   max-width: 542px;
   min-height: 476px;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 70px;
   background-color: #ededed;
   border-radius: 2%;
 }
@@ -736,7 +736,7 @@ body {
     right: 50px;
     max-width: 442px;
     min-height: 450px;
-    padding: 25px;
+    padding: 55px;
   }
 
   /* Здесь будет адаптив Виды экскурсий - Оля  */
@@ -874,9 +874,9 @@ body {
   .about-us__paragraph {
     top: 165px;
     right: -40px;
-    max-width: 350px;
+    max-width: 361px;
     min-height: 400px;
-    padding: 15px;
+    padding: 28px;
   }
 
   /* Здесь будет адаптив Виды экскурсий - Оля  */

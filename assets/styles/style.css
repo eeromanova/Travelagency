@@ -695,6 +695,12 @@ body {
   }
 }
 
+@media screen and (max-width: 933px) {
+  .popular-tours__dragon {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .header {
     width: 100vw;
@@ -890,6 +896,22 @@ body {
   }
 }
 
+@media screen and (max-width: 690px) {
+  .popular-tours__horse-rides {
+    display: none;
+  }
+
+  p.main__text_underlined {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .popular-tours {
+    margin-top: 150px;
+  }
+}
+
 @media screen and (max-width: 428px) {
   .header {
     height: 928px;
@@ -995,6 +1017,7 @@ body {
     min-height: 400px;
     padding: 28px;
   }
+
 
   /* Здесь будет адаптив Виды экскурсий - Оля  */
   .excursion-type {
@@ -1153,69 +1176,6 @@ body {
   }
 }
 
-@media screen and (max-width: 330px) {
-  .excursion-type__paragraph {
-    width: 45%;
-  }
-
-  .button {
-    width: 14.3755rem;
-  }
-
-  .excursion-more {
-    width: 84%;
-  }
-
-  .main__text_black {
-    font-size: 11px;
-  }
-
-  .excursion-type {
-    margin: 150px 2% auto 2%;
-  }
-
-  .about-us__paragraph {
-    top: 184px;
-    right: -40px;
-    max-width: 350px;
-    min-height: 349px;
-    padding: 20px;
-  }
-}
-
-@media screen and (max-width: 933px) {
-  .popular-tours__dragon {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 690px) {
-  .popular-tours__horse-rides {
-    display: none;
-  }
-
-  p.main__text_underlined {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 570px) {
-  .popular-tours {
-    margin-top: 150px;
-  }
-}
-
-@media screen and (max-width: 428px) {
-  .about-us__paragraph {
-    top: 184px;
-    right: -40px;
-    max-width: 350px;
-    min-height: 349px;
-    padding: 20px;
-  }
-}
-
-
 @media screen and (max-width: 370px) {
   .header__title_big {
     font-size: 8.4vw;
@@ -1252,3 +1212,43 @@ body {
     height: 4.44vw;
   }
 }
+
+@media screen and (max-width: 330px) {
+  .excursion-type__paragraph {
+    width: 45%;
+  }
+
+  .button {
+    width: 14.3755rem;
+  }
+
+  .excursion-more {
+    width: 84%;
+  }
+
+  .main__text_black {
+    font-size: 11px;
+  }
+
+  .excursion-type {
+    margin: 150px 2% auto 2%;
+  }
+
+  .about-us__paragraph {
+    top: 184px;
+    right: -40px;
+    max-width: 350px;
+    min-height: 349px;
+    padding: 20px;
+  }
+}
+
+/* @media screen and (max-width: 428px) {
+  .about-us__paragraph {
+    top: 184px;
+    right: -40px;
+    max-width: 350px;
+    min-height: 349px;
+    padding: 20px;
+  }
+} */

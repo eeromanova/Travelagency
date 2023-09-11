@@ -1152,4 +1152,10 @@ body {
     min-height: 349px;
     padding: 20px;
   }
+  .popular-tours__cards {
+    margin: 0 2% 10% 2%;
+  }
+  .popular-tours__sochi {
+    padding: 190px 5px 42px 5px;
+  }
 }

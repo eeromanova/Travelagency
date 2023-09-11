@@ -200,13 +200,6 @@ body {
   z-index: 1;
 }
 
-/*популярные туры, ответственный Софья*/
-
-/*.popular-tours {
-  margin-top: 263px;
-  /* padding: 20vh 13vw 30vh 13vw; */
-
-
 .popular-tours__sochi {
   display: flex;
   flex-flow: column;
@@ -254,8 +247,6 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
-
-  /* padding-bottom: 5vh; */
 }
 
 .popular-tours__cards {
@@ -634,6 +625,11 @@ body {
   width: 30px;
   height: 30px;
 }
+@media screen and (min-width: 1700px) {
+  .popular-tours {
+    margin-top: 10%;
+  }
+}
 
 @media screen and (max-width: 1300px) {
   .header__video {
@@ -878,7 +874,7 @@ body {
     display: none;
   }
 
-  p.main__text_underlined {
+  .main__text_underlined {
     display: none;
   }
 }
@@ -993,9 +989,6 @@ body {
     min-height: 400px;
     padding: 28px;
   }
-
-
-  /* Здесь будет адаптив Виды экскурсий - Оля  */
   .excursion-type {
     margin: 150px 6% auto 6%;
   }

@@ -755,14 +755,41 @@ body {
   }
 
   /* Здесь будет адаптив Галерея - Марина */
+  .gallery {
+    width: 94.79%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .gallery__text {
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .gallery-paysage {
+    height: 73.82vw;
+    width: 100%;
+    display: grid;
+    grid-gap: 1.4em;
+  }
+
+  .gallery__picture {
+    border-radius: 0.5em;
+  }
 
   .footer {
     height: 22.5vw;
   }
-.logo_footer {
-  width: 65px;
-height: 93px;
-}
+
+  .logo_footer {
+    width: 65px;
+    height: 93px;
+  }
+
   .footer__menu_item {
     font-size: 1.56vw;
   }
@@ -773,6 +800,54 @@ height: 93px;
 
   .footer__socials_address {
     font-size: 1.56vw;
+  }
+}
+
+@media screen and (min-width: 429px) and (max-width: 768px) {
+
+  /* Здесь будет адаптив Галерея - Марина */
+  .gallery__picture_item-1 {
+    display: none;
+  }
+
+  .gallery__picture_item-2 {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    width: 26.7vw;
+    height: 100%;
+  }
+
+  .gallery__picture_item-3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 34.6vw;
+    height: 34.37vw;
+  }
+
+  .gallery__picture_item-4 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 28vw;
+    height: 34.37vw;
+  }
+
+  .gallery__picture_item-5 {
+    display: none;
+  }
+
+  .gallery__picture_item-6 {
+    display: none;
+  }
+
+  .gallery__picture_item-7 {
+    display: none;
+  }
+
+  .gallery__picture_item-8 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    width: 65.48vw;
+    height: 36.84vw;
   }
 }
 
@@ -906,15 +981,6 @@ height: 93px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-  }
-
-  .main__text_underlined {
-    margin: 0px;
-    font-size: 12px;
-    font-family: "Montserrat", sans-serif;
-    color: black;
-    text-decoration: underline;
-    margin-block-end: 90px;
   }
 
   .gallery-paysage {
@@ -1069,20 +1135,25 @@ height: 93px;
   .excursion-type {
     margin: 150px 2% auto 2%;
   }
+
   .about-us__paragraph {
     top: 184px;
     right: -40px;
     max-width: 350px;
     min-height: 349px;
     padding: 20px;
-}}
+  }
+}
+
 @media screen and (max-width: 370px) {
   .header__title_big {
     font-size: 8.4vw;
   }
+
   .header__title_wrap1 {
     position: relative;
   }
+
   .header__title_small {
     position: absolute;
     margin-top: 0;
@@ -1090,17 +1161,21 @@ height: 93px;
     left: 50%;
     font-size: 11.2vw;
   }
+
   .header__title_main {
     font-size: 16.8vw;
     line-height: 1em;
   }
+
   .footer__menu_item {
     font-size: 2.8vw;
   }
+
   .footer__contacts_item {
     font-size: 2.8vw;
     margin-bottom: 2.5vw;
   }
+
   .footer__icon_item {
     width: 4.44vw;
     height: 4.44vw;

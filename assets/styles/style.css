@@ -203,10 +203,10 @@ body {
 
 /*популярные туры, ответственный Софья*/
 
-.popular-tours {
+/*.popular-tours {
   margin-top: 263px;
   /* padding: 20vh 13vw 30vh 13vw; */
-}
+
 
 .popular-tours__sochi {
   display: flex;
@@ -258,7 +258,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 
   /* padding-bottom: 5vh; */
 }
@@ -1183,25 +1183,29 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 933px) {
   .popular-tours__dragon {
     display: none;
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 690px) {
   .popular-tours__horse-rides {
     display: none;
-
-    .about-us__paragraph {
-      top: 184px;
-      right: -40px;
-      max-width: 350px;
-      min-height: 349px;
-      padding: 20px;
-    }
   }
 }
+
+
+@media screen and (max-width: 428px) {
+  .about-us__paragraph {
+    top: 184px;
+    right: -40px;
+    max-width: 350px;
+    min-height: 349px;
+    padding: 20px;
+  }
+}
+
 
 @media screen and (max-width: 370px) {
   .header__title_big {

@@ -510,6 +510,7 @@ body {
 
 .footer {
   height: 12vw;
+  width: 100vw;
   display: grid;
   align-items: center;
   background-color: #ededed;
@@ -578,7 +579,7 @@ body {
 
 .footer__contacts_item {
   margin: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 10px;
   white-space: nowrap;
   font-family: "Montserrat", sans-serif;
   color: #282828;
@@ -758,17 +759,20 @@ body {
   .footer {
     height: 22.5vw;
   }
-
+.logo_footer {
+  width: 65px;
+height: 93px;
+}
   .footer__menu_item {
-    font-size: 12px;
+    font-size: 1.56vw;
   }
 
   .footer__contacts_item {
-    font-size: 12px;
+    font-size: 1.56vw;
   }
 
   .footer__socials_address {
-    font-size: 12px;
+    font-size: 1.56vw;
   }
 }
 
@@ -1072,3 +1076,33 @@ body {
     min-height: 349px;
     padding: 20px;
 }}
+@media screen and (max-width: 370px) {
+  .header__title_big {
+    font-size: 8.4vw;
+  }
+  .header__title_wrap1 {
+    position: relative;
+  }
+  .header__title_small {
+    position: absolute;
+    margin-top: 0;
+    top: 40%;
+    left: 50%;
+    font-size: 11.2vw;
+  }
+  .header__title_main {
+    font-size: 16.8vw;
+    line-height: 1em;
+  }
+  .footer__menu_item {
+    font-size: 2.8vw;
+  }
+  .footer__contacts_item {
+    font-size: 2.8vw;
+    margin-bottom: 2.5vw;
+  }
+  .footer__icon_item {
+    width: 4.44vw;
+    height: 4.44vw;
+  }
+}

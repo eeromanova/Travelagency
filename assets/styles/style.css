@@ -211,8 +211,9 @@ body {
 .popular-tours__sochi {
   display: flex;
   flex-flow: column;
+  justify-content: space-between;
   /* width: 328px; */
-  height: 300px;
+  min-height: 300px;
   padding: 190px 16px 42px 16px;
   flex: 1 1 33%;
   /* flex-shrink: 0; */
@@ -257,6 +258,8 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: center;
+
   /* padding-bottom: 5vh; */
 }
 
@@ -271,8 +274,9 @@ body {
 .popular-tours__horse-rides {
   display: flex;
   flex-flow: column;
+  justify-content: space-between;
   /* width: 328px; */
-  height: 300px;
+  min-height: 300px;
   padding: 190px 16px 42px 16px;
   flex: 1 1 33%;
   /* flex-shrink: 0; */
@@ -286,8 +290,9 @@ body {
 .popular-tours__dragon {
   display: flex;
   flex-flow: column;
+  justify-content: space-between;
   /* width: 328px; */
-  height: 300px;
+  min-height: 300px;
   padding: 190px 16px 42px 16px;
   flex: 1 1 33%;
   /* flex-shrink: 0; */
@@ -302,6 +307,21 @@ body {
   width: 9.675em;
   height: 2.7em;
   font-size: 12px;
+
+}
+
+#horse_text {
+  height: 152px;
+
+}
+
+#sochi_text {
+  height: 152px;
+
+}
+
+#dragon_text {
+  height: 152px;
 
 }
 

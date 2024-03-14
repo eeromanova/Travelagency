@@ -28,11 +28,15 @@
 <a href="https://eeromanova.github.io/week10_11/">Page</a>
 
 ### Collaboraters
-
-<a href="https://github.com/OlgaLosikova">OlgaLosikova</a>
-<a href="https://github.com/oiboiiii">oiboiiii</a>
-<a href="https://github.com/MarinaGrigoryan">MarinaGrigoryan</a>
-<a href="https://github.com/Gnarkill33">Gnarkill33</a>
+<p>
+  <a href="https://github.com/OlgaLosikova">OlgaLosikova</a>
+</p>
+<p><a href="https://github.com/oiboiiii">oiboiiii</a></p>
+<p>
+  <a href="https://github.com/MarinaGrigoryan">MarinaGrigoryan</a>
+</p>
+<p><a href="https://github.com/Gnarkill33">Gnarkill33</a>
+</p>
 
 
 

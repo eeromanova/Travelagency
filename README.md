@@ -31,7 +31,7 @@
 
 <a href="https://github.com/OlgaLosikova">OlgaLosikova</a>
 <a href="https://github.com/oiboiiii">oiboiiii</a>
-<a href="https://github.com/lobkisira">MarinaGrigoryan</a>
+<a href="https://github.com/MarinaGrigoryan">MarinaGrigoryan</a>
 <a href="https://github.com/Gnarkill33">Gnarkill33</a>
 
 

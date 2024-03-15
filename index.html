@@ -36,17 +36,25 @@
         <div class="header__title_wrap2">
           <h1 class="header__title_main">Pero Travel</h1>
           <div class="social-icon">
-            <img class="social-icon__item" src="assets/svg/vk_1.svg" alt="vk" />
-            <img
-              class="social-icon__item"
-              src="assets/svg/inst_1.svg"
-              alt="inst"
-            />
-            <img
-              class="social-icon__item_fb"
-              src="assets/svg/facebook_1.svg"
-              alt="fb"
-            />
+            <a href="#">
+              <img
+                class="social-icon__item"
+                src="assets/svg/vk_1.svg"
+                alt="vk"
+              />
+            </a>
+            <a href="#">
+              <img
+                class="social-icon__item"
+                src="assets/svg/inst_1.svg"
+                alt="inst"
+            /></a>
+            <a href="#">
+              <img
+                class="social-icon__item_fb"
+                src="assets/svg/facebook_1.svg"
+                alt="fb"
+            /></a>
           </div>
         </div>
 
@@ -54,21 +62,21 @@
           <button type="button" class="button">К экскурсиям &rarr;</button>
         </div>
         <div class="social-icon_mob">
-          <img
-            class="social-icon__item_mob"
-            src="assets/svg/vk_1.svg"
-            alt="vk"
-          />
-          <img
-            class="social-icon__item_mob"
-            src="assets/svg/inst_1.svg"
-            alt="inst"
-          />
-          <img
-            class="social-icon__item_fbmob"
-            src="assets/svg/facebook_1.svg"
-            alt="fb"
-          />
+          <a href="#">
+            <img class="social-icon__item" src="assets/svg/vk_1.svg" alt="vk" />
+          </a>
+          <a href="#">
+            <img
+              class="social-icon__item"
+              src="assets/svg/inst_1.svg"
+              alt="inst"
+          /></a>
+          <a href="#">
+            <img
+              class="social-icon__item_fb"
+              src="assets/svg/facebook_1.svg"
+              alt="fb"
+          /></a>
         </div>
       </div>
       <div class="header__video">
@@ -89,19 +97,27 @@
           <h2 class="main__title main__title_basisMargin">
             Популярные экскурсии
           </h2>
-          <p class="main__text main__text_underlined">Смотреть все</p>
+          <a class="main__text main__text_underlined" href="#">Смотреть все</a>
         </div>
         <div class="popular-tours__cards">
           <div class="popular-tours__sochi">
             <p class="popular-tours__category">Автобусный тур</p>
             <h2 class="popular-tours__title">Обзорная по Сочи</h2>
-            <p class="popular-tours__time_price">
-              <img src="assets/images/time_icon.png" alt="time_icon" />6
-              часов<img
-                src="assets/images/price_icon.png"
+            <div class="popular-tours__timepricecontainer">
+              <img
+                class="popular-tours__image"
+                src="assets/svg/clock.svg"
+                alt="time_icon"
+              />
+              <p class="popular-tours__time_price">6 часов</p>
+              <img
+                class="popular-tours__image"
+                src="assets/svg/money.svg"
                 alt="price_icon"
-              />618 ₽
-            </p>
+              />
+              <p class="popular-tours__time_price">618 ₽</p>
+            </div>
+
             <p class="main__text main__text_white" id="sochi_text">
               Приглашаем вас на экскурсию "Обзорная по Большому Сочи": Экскурсия
               начнется с подъёма на гору Большой Ахун - это высшая точка (665
@@ -118,11 +134,20 @@
           <div class="popular-tours__horse-rides">
             <p class="popular-tours__category">Конный тур</p>
             <h2 class="popular-tours__title">Конные прогулки</h2>
-            <p class="popular-tours__time_price">
-              <img src="assets/images/time_icon.png" alt="time_icon" />1,5
-              часа<img src="assets/images/price_icon.png" alt="price_icon" />1
-              809 ₽
-            </p>
+            <div class="popular-tours__timepricecontainer">
+              <img
+                class="popular-tours__image"
+                src="assets/svg/clock.svg"
+                alt="time_icon"
+              />
+              <p class="popular-tours__time_price">1,5 часа</p>
+              <img
+                class="popular-tours__image"
+                src="assets/svg/money.svg"
+                alt="price_icon"
+              />
+              <p class="popular-tours__time_price">1 809 ₽</p>
+            </div>
             <p class="main__text main__text_white" id="horse_text">
               Конные прогулки проходят в Лазурной долине. С долины открывается
               красивый вид на море, горы и лес. На всем пути следования
@@ -138,11 +163,20 @@
           <div class="popular-tours__dragon">
             <p class="popular-tours__category">Квадротур</p>
             <h2 class="popular-tours__title">Пасть дракона</h2>
-            <p class="popular-tours__time_price">
-              <img src="assets/images/time_icon.png" alt="time_icon" /> 2,5
-              часа<img src="assets/images/price_icon.png" alt="price_icon" />3
-              515 ₽
-            </p>
+            <div class="popular-tours__timepricecontainer">
+              <img
+                class="popular-tours__image"
+                src="assets/svg/clock.svg"
+                alt="time_icon"
+              />
+              <p class="popular-tours__time_price">2,5 часа</p>
+              <img
+                class="popular-tours__image"
+                src="assets/svg/money.svg"
+                alt="price_icon"
+              />
+              <p class="popular-tours__time_price">3 515 ₽</p>
+            </div>
             <p class="main__text main__text_white" id="dragon_text">
               Маршрут на Квадроциклах проходит по горной реке Мзымта вдоль белых
               скал и самшитовый лес к водопаду Глубокий Яр или "Пасть Дракона"
@@ -158,28 +192,30 @@
         </div>
       </section>
       <section class="about-us">
-        <img
+        <div class="about-us__container">
+          <div class="about-us__paragraph">
+            <h2 class="main__title">О нас</h2>
+            <p class="main__text main__text_white">
+              PeroTravel - Первый онлайн-сервис по бронированию экскурсий без
+              очередей и операторов. <br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p class="main__text main__text_white">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
+            </p>
+          </div>
+        </div>
+        <!-- <img
           class="about-us__image"
           src="assets/images/about_us.png"
           alt="о нас"
-        />
-        <div class="about-us__paragraph">
-          <h2 class="main__title">О нас</h2>
-          <p class="main__text main__text_black">
-            PeroTravel - Первый онлайн-сервис по бронированию экскурсий без
-            очередей и операторов. <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-          <p class="main__text main__text_black">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo.
-          </p>
-        </div>
+        /> -->
       </section>
       <section class="excursion-type">
         <h2 class="main__title main__title_basisMargin">Виды экскурсий</h2>
@@ -260,7 +296,7 @@
       <section class="gallery">
         <div class="gallery__text">
           <h2 class="main__title main__title_basisMargin">Галерея</h2>
-          <p class="main__text main__text_underlined">Смотреть все</p>
+          <a class="main__text main__text_underlined">Смотреть все</a>
         </div>
         <div class="gallery-paysage">
           <img
@@ -314,21 +350,25 @@
           alt="logo"
         />
         <div class="social-icon_wrapmob">
-          <img
-            class="social-icon__itemred"
-            src="assets/svg/vk_2.svg"
-            alt="vk"
-          />
-          <img
-            class="social-icon__itemyellow"
-            src="assets/svg/inst_2.svg"
-            alt="inst"
-          />
-          <img
-            class="social-icon__item_fbblue"
-            src="assets/svg/facebook_2.svg"
-            alt="fb"
-          />
+          <a href="#">
+            <img
+              class="social-icon__itemred"
+              src="assets/svg/vk_2.svg"
+              alt="vk"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="social-icon__itemyellow"
+              src="assets/svg/inst_2.svg"
+              alt="inst"
+          /></a>
+          <a href="#">
+            <img
+              class="social-icon__item_fbblue"
+              src="assets/svg/facebook_2.svg"
+              alt="fb"
+          /></a>
         </div>
         <div class="footer__menu">
           <a class="footer__menu_item" href="#">Главная</a>
@@ -336,9 +376,15 @@
           <a class="footer__menu_item" href="#">Личный кабинет</a>
         </div>
         <div class="footer__icons">
-          <img src="assets/svg/wh_1.svg" alt="wa" class="footer__icon_item" />
-          <img src="assets/svg/tg_1.svg" alt="tg" class="footer__icon_item" />
-          <img src="assets/svg/tg_2.svg" alt="tg" class="footer__icon_item" />
+          <a href="#"
+            ><img src="assets/svg/wh_1.svg" alt="wa" class="footer__icon_item"
+          /></a>
+          <a href="#"
+            ><img src="assets/svg/tg_1.svg" alt="tg" class="footer__icon_item"
+          /></a>
+          <a href="#"
+            ><img src="assets/svg/tg_2.svg" alt="tg" class="footer__icon_item"
+          /></a>
         </div>
         <div class="footer__contacts">
           <p class="footer__contacts footer__contacts_item">+7 964 944 18 74</p>
@@ -350,26 +396,33 @@
         <div>
           <div class="footer__socials footer__socials_post">
             <img src="assets/svg/mail_1.svg" alt="mail" />
-            <p class="footer__socials footer__socials_address">
+            <a
+              class="footer__socials footer__socials_address"
+              href="mailto:office@perotravel.ru"
+            >
               office@perotravel.ru
-            </p>
+            </a>
           </div>
           <div class="social-icon_wrap">
-            <img
-              class="social-icon__itemred"
-              src="assets/svg/vk_2.svg"
-              alt="vk"
-            />
-            <img
-              class="social-icon__itemyellow"
-              src="assets/svg/inst_2.svg"
-              alt="inst"
-            />
-            <img
-              class="social-icon__item_fbblue"
-              src="assets/svg/facebook_2.svg"
-              alt="fb"
-            />
+            <a href="#">
+              <img
+                class="social-icon__itemred"
+                src="assets/svg/vk_2.svg"
+                alt="vk"
+              />
+            </a>
+            <a href="#">
+              <img
+                class="social-icon__itemyellow"
+                src="assets/svg/inst_2.svg"
+                alt="inst"
+            /></a>
+            <a href="#">
+              <img
+                class="social-icon__item_fbblue"
+                src="assets/svg/facebook_2.svg"
+                alt="fb"
+            /></a>
           </div>
         </div>
         <div class="footer_mob">
@@ -380,26 +433,30 @@
           </div>
           <div class="footer__socials_mob">
             <div class="footer__icons_mob">
-              <img
-                src="assets/svg/wh_1.svg"
-                alt="wa"
-                class="footer__icon_item"
-              />
-              <img
-                src="assets/svg/tg_1.svg"
-                alt="tg"
-                class="footer__icon_item"
-              />
-              <img
-                src="assets/svg/tg_2.svg"
-                alt="tg"
-                class="footer__icon_item"
-              />
-              <img
-                src="assets/svg/mail_1.svg"
-                alt="mail"
-                class="footer__icon_item"
-              />
+              <a href="#"
+                ><img
+                  src="assets/svg/wh_1.svg"
+                  alt="wa"
+                  class="footer__icon_item"
+              /></a>
+              <a href="#"
+                ><img
+                  src="assets/svg/tg_1.svg"
+                  alt="tg"
+                  class="footer__icon_item"
+              /></a>
+              <a href="#"
+                ><img
+                  src="assets/svg/tg_2.svg"
+                  alt="tg"
+                  class="footer__icon_item"
+              /></a>
+              <a href="#"
+                ><img
+                  src="assets/svg/mail_1.svg"
+                  alt="mail"
+                  class="footer__icon_item"
+              /></a>
             </div>
             <div class="footer__contacts_mob">
               <p class="footer__contacts footer__contacts_item">
@@ -411,9 +468,12 @@
               <p class="footer__contacts footer__contacts_item">
                 Телеграм-бот PeroTravel
               </p>
-              <p class="footer__socials footer__contacts_item">
+              <a
+                class="footer__socials footer__socials_address"
+                href="mailto:office@perotravel.ru"
+              >
                 office@perotravel.ru
-              </p>
+              </a>
             </div>
           </div>
         </div>

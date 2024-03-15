@@ -1,5 +1,5 @@
 /* * {
-  border: 1px solid red;
+  outline: orangered solid 1px;
 } */
 
 @font-face {
@@ -140,17 +140,24 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .social-icon__item {
   width: 32px;
   height: 32px;
 }
-
+.social-icon__item:hover {
+  transform: scale(1.1);
+  background-color: #ffc700;
+  border-radius: 5px;
+}
 .social-icon__item_fb {
   width: 30px;
   height: 30px;
 }
-
+.social-icon__item_fb:hover {
+  transform: scale(1.1);
+  background-color: #ffc700;
+  border-radius: 5px;
+}
 .button_wrap {
   margin: 1rem auto;
 }
@@ -171,7 +178,9 @@ body {
 
 .button:hover {
   background: #ffc700;
+  transition: color 0.5s;
   color: #000;
+  cursor: pointer;
 }
 
 .social-icon_mob {
@@ -231,6 +240,10 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+.popular-tours__timepricecontainer {
+  display: flex;
+  gap: 7px;
+}
 
 .popular-tours__time_price {
   color: #fff;
@@ -284,7 +297,9 @@ body {
     lightgray -113.9px -271px / 169.899% 153.832% no-repeat;
   background-size: cover;
 }
-
+.popular-tours__image {
+  width: 10px;
+}
 .button__popular-tours {
   width: 9.675em;
   height: 2.7em;
@@ -302,26 +317,29 @@ body {
 #dragon_text {
   height: 152px;
 }
-.about-us__image {
+/* .about-us__image {
   width: 80vw;
   height: 83vh;
   object-fit: cover;
+} */
+.about-us__container {
+  background-image: url(../images/about_us.png);
+  background-size: cover;
+  width: 80vw;
+  height: 83vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .about-us__paragraph {
-  position: absolute;
-  top: 150px;
-  right: 150px;
-  max-width: 542px;
-  min-height: 476px;
+  width: 60%;
+  max-height: 80%;
   box-sizing: border-box;
-  padding: 70px;
-  background-color: #ededed;
+  padding: 20px;
+  backdrop-filter: blur(10px);
   border-radius: 2%;
-}
-
-.about-us {
-  position: relative;
+  color: white;
+  text-overflow: ellipsis;
 }
 
 .excursion-type {
@@ -400,6 +418,7 @@ body {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   color: #282828;
+  text-overflow: ellipsis;
 }
 
 .main__text_white {
@@ -410,6 +429,7 @@ body {
   font-weight: 500;
   line-height: normal;
   min-height: 20%;
+  text-overflow: ellipsis;
 }
 
 .gallery {
@@ -432,10 +452,15 @@ body {
   color: black;
   text-decoration: underline;
   margin-block-end: 90px;
+  cursor: pointer;
+}
+.main__text_underlined:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
 }
 .gallery-paysage {
   height: 40vw;
-  /* width: 95%; */
+  width: 95%;
   margin: 0;
   display: grid;
   grid-template-columns: 14% 18% 28% 18% 14%;
@@ -451,27 +476,43 @@ body {
 }
 .gallery__picture_item-1 {
   grid-area: one;
+  object-fit: cover;
+  width: 100%;
 }
 .gallery__picture_item-2 {
   grid-area: two;
+  object-fit: cover;
+  width: 100%;
 }
 .gallery__picture_item-3 {
   grid-area: three;
+  object-fit: cover;
+  width: 100%;
 }
 .gallery__picture_item-4 {
   grid-area: four;
+  object-fit: cover;
+  width: 100%;
 }
 .gallery__picture_item-5 {
   grid-area: five;
+  object-fit: cover;
+  width: 100%;
 }
 .gallery__picture_item-6 {
   grid-area: six;
+  object-fit: cover;
+  width: 100%;
 }
 .gallery__picture_item-7 {
   grid-area: seven;
+  object-fit: cover;
+  width: 100%;
 }
 .gallery__picture_item-8 {
   grid-area: eight;
+  object-fit: cover;
+  width: 100%;
 }
 .footer {
   min-height: 12vw;
@@ -484,6 +525,7 @@ body {
 
 .footer_wrap {
   display: grid;
+  gap: 5px;
   grid-template-rows: 100%;
   grid-template-columns: repeat(4, 1fr) 0.5fr;
   grid-template-areas: "logo menu socials contacts post";
@@ -537,7 +579,9 @@ body {
   width: 20px;
   height: 20px;
 }
-
+.footer__icon_item:hover {
+  transform: scale(1.1);
+}
 .footer__contacts {
   grid-area: contacts;
   margin-left: 0.5em;
@@ -576,7 +620,10 @@ body {
   font-weight: 500;
   line-height: normal;
 }
-
+.social-icon_wrap {
+  display: flex;
+  align-items: center;
+}
 .social-icon_wrapmob {
   display: none;
 }
@@ -585,15 +632,23 @@ body {
   width: 38px;
   height: 38px;
 }
-
+.social-icon__itemred:hover {
+  transform: scale(1.1);
+}
 .social-icon__itemyellow {
   width: 32px;
   height: 32px;
+}
+.social-icon__itemyellow:hover {
+  transform: scale(1.1);
 }
 
 .social-icon__item_fbblue {
   width: 30px;
   height: 30px;
+}
+.social-icon__item_fbblue:hover {
+  transform: scale(1.1);
 }
 @media screen and (min-width: 1700px) {
   .popular-tours {
@@ -728,13 +783,6 @@ body {
   .popular-tours__dragon {
     display: none;
   }
-  .about-us__paragraph {
-    top: 150px;
-    right: 50px;
-    max-width: 442px;
-    min-height: 450px;
-    padding: 55px;
-  }
 
   .excursion-type {
     margin: 150px 10% auto 10%;
@@ -855,6 +903,32 @@ body {
   .popular-tours {
     margin-top: 150px;
   }
+  .social-icon {
+    display: none;
+  }
+
+  .social-icon_mob {
+    display: flex;
+    float: right;
+    flex-direction: column;
+  }
+
+  .social-icon__item_mob {
+    width: 32px;
+    height: 32px;
+  }
+
+  .social-icon__item_fbmob {
+    width: 30px;
+    height: 30px;
+  }
+  .header__title_big {
+    font-size: 32px;
+  }
+  .header__title_main {
+    font-size: 62px;
+    line-height: 1em;
+  }
 }
 
 @media screen and (max-width: 428px) {
@@ -914,26 +988,6 @@ body {
     line-height: 1em;
   }
 
-  .social-icon {
-    display: none;
-  }
-
-  .social-icon_mob {
-    display: flex;
-    float: right;
-    flex-direction: column;
-  }
-
-  .social-icon__item_mob {
-    width: 32px;
-    height: 32px;
-  }
-
-  .social-icon__item_fbmob {
-    width: 30px;
-    height: 30px;
-  }
-
   .button_wrap {
     margin: 5.6rem auto;
   }
@@ -955,20 +1009,19 @@ body {
     display: none;
   }
   .about-us__paragraph {
-    top: 165px;
-    right: -40px;
-    max-width: 361px;
-    min-height: 400px;
-    padding: 28px;
+    width: 80%;
   }
   .excursion-type {
     margin: 150px 6% auto 6%;
   }
 
-  .main__text_black {
-    font-size: 13px;
-  }
+  .main__text {
+    font-size: 11px;
 
+  }
+  /* .main__text_white {
+    font-size: 11px;
+  } */
   .gallery {
     width: 89%;
     margin: auto;

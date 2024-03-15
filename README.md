@@ -1,7 +1,7 @@
 # HTML+CSS
 <h1 align="center">Travel company</h1>
   
-<img src="https://github.com/eeromanova/week10_11/raw/main/assets/images/pero_travel1.png">
+<img src="https://github.com/eeromanova/week10_11/raw/main/assets/images/Pero_travel1.png">
 
 ## Description
 
